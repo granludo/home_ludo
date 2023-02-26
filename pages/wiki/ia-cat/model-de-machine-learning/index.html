@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Model de Machine learning - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Model de Machine learning" />
+<meta property="og:description" content="Table Of Contents Què és un Model de Machine Learning? Predicció del comportament d&rsquo;un model Biaixos El transformador Què és un Model de Machine Learning?" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wasabi.essi.upc.edu/www/pages/wiki/ia-cat/model-de-machine-learning/" /><meta property="article:section" content="pages" />
+<meta property="article:published_time" content="2023-02-01T02:01:58+05:30" />
+<meta property="article:modified_time" content="2023-02-01T02:01:58+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Model de Machine learning"/>
+<meta name="twitter:description" content="Table Of Contents Què és un Model de Machine Learning? Predicció del comportament d&rsquo;un model Biaixos El transformador Què és un Model de Machine Learning?"/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/www/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/www/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/www/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/www/css/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/www/css/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://wasabi.essi.upc.edu/www/js/main.js"></script>
+	<script src="https://wasabi.essi.upc.edu/www/js/abc.js"></script>
+	<script src="https://wasabi.essi.upc.edu/www/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://wasabi.essi.upc.edu/www/">
+	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/www/">Marc Alier (Ludo) - Home Page </a></h1>
+	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
+			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/www/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/www/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/www/about">About me</a>
+			</li>
+			
+			<li>
+				<a href="/www/tags/castellano">Castellano</a>
+			</li>
+			
+			<li>
+				<a href="/www/tags/catal%C3%A0">Català</a>
+			</li>
+			
+			<li>
+				<a href="/www/tags/english">English</a>
+			</li>
+			
+			<li>
+				<a href="/www/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Model de Machine learning</h1>
+			<div class="meta">Posted at &mdash; Feb 1, 2023</div>
+		</div>
+
+		<div class="markdown">
+			<div>
+    <h2>Table Of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#què-és-un-model-de-machine-learning">Què és un Model de Machine Learning?</a></li>
+    <li><a href="#predicció-del-comportament--dun-model">Predicció del comportament  d&rsquo;un model</a></li>
+    <li><a href="#biaixos">Biaixos</a></li>
+    <li><a href="#el-transformador">El transformador</a></li>
+  </ul>
+</nav>
+</div>
+
+<h2 id="què-és-un-model-de-machine-learning">Què és un Model de Machine Learning?</h2>
+<p>Un model de <strong>machine learning</strong> o model d&rsquo;<strong>aprenentatge automàtic</strong> és un conjunt d&rsquo;algoritmes i estructures de dades que s&rsquo;utilitzen per a realitzar tasques d&rsquo;aprenentatge automàtic, com ara la classificació, la regressió o la generació de dades. Els models de machine learning es basen en les xarxes neuronals.</p>
+<p>Per entrenar un <strong>model de machine learning</strong>, es proporciona un conjunt de dades anomenat conjunt d&rsquo;entrenament, que conté exemples d&rsquo;entrada i les seves respectives sortides desitjades. L&rsquo;algoritme de machine learning utilitza aquestes dades per a ajustar els seus paràmetres internes de manera que pugui acomplir les tasques desitjades.</p>
+<p>Una vegada entrenat, un model de machine learning pot ser utilitzat per a fer prediccions o generar noves dades sobre entrades noves. Això es fa mitjançant la funció d&rsquo;inferència del model, que pren com a entrada unes dades noves i proporciona una sortida.</p>
+<h2 id="predicció-del-comportament--dun-model">Predicció del comportament  d&rsquo;un model</h2>
+<p>És important destacar que un <strong>model de machine learning no es comporta</strong> com un algorisme tradicional escrit per humans en un llenguatge de programació com C++, Java o Python. Un algorisme tradicional pot ser analitzat, depurat, optimitzat i &ldquo;debugat&rdquo;) i fins a cert punt es pot verificar i predir el seu comportament.  Un model de machine learning genera a partir dels exemples proporcionats i no hi ha forma de predir quins resultats generarà, llevat del que puguem inferir per inducció a partir del seu comportament.</p>
+<h2 id="biaixos">Biaixos</h2>
+<p>Els models de machine learning tendeixen a reproduir els biaixos subjacents al conjunt de dades ofert com a exemple veure <a href="https://wasabi.essi.upc.edu/www/pages/wiki/ia-cat/el-biaix-pol%C3%ADtic-en-models-de-machine-learning/">Biaixos i IA</a>.</p>
+<h2 id="el-transformador">El transformador</h2>
+<p>L&rsquo;any 2017 els investigadors en IA de Google van publicar el paper el paper &ldquo;Attention Is All You Need&rdquo; (2017) <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>presentant el &ldquo;transformador&rdquo; : un model d&rsquo;aprenentatge automàtic basat en xarxes neuronals que s&rsquo;ha utilitzat amb gran èxit en tasques de processament de llenguatge natural.</p>
+<p>El transformador utilitza una arquitectura basada en l&rsquo;atenció, que permet al model concentrar-se en les parts més importants de l&rsquo;entrada per a fer una predicció o una generació de contingut. Això vol dir que els models tipus transformador són capaços de tenir en compte dades contextuals en comptes de només generar coses a partir de la darrera entrada.</p>
+<p>El transformador és la innovació que dona pas a l&rsquo;onada de nous models generatius com Lambda (Google) o  la sèrie de models GPT d&rsquo;OpenAi en el que es basa ChatGPT.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., &hellip; &amp; Polosukhin, I. (2017). Attention is all you need. <em>Advances in neural information processing systems</em>, <em>30</em>.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+		</div>
+
+		<div class="post-tags">
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>feather.replace()</script>
+</body>
+</html>
