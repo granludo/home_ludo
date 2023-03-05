@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Fri, 24 Feb 2023 12:13:38 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Mar 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Participació a jornada sobre IA i docencia a la UIC</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/participaci%C3%B3-a-jornada-sobre-ia-i-docencia-a-la-uic/</link>
+      <pubDate>Wed, 01 Mar 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/participaci%C3%B3-a-jornada-sobre-ia-i-docencia-a-la-uic/</guid>
+      <description>El pasado 2 de Marzo de 2023 participé en la Sessión sobre Chatbots de IA en Educación Superior organizada por la Universitat Internacional de Catalunya UIC.</description>
+    </item>
+    
     <item>
       <title>Què és i què no és ChatGPT?</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/que-es-chatgtp/</link>
@@ -42,6 +51,15 @@
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-biaix-pol%C3%ADtic-en-models-de-machine-learning/</guid>
       <description>Els biaixos en els pages/wiki/ia-cat/Model de Machine Learning són errors sistemàtics que es produeixen quan el model no pot capturar completament les relacions subtils entre les dades i les etiquetes.</description>
+    </item>
+    
+    <item>
+      <title>El consens de Beijing sobre IA en Educació</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-consens-de-beijing-sobre-ia-en-educaci%C3%B3/</link>
+      <pubDate>Wed, 01 Feb 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-consens-de-beijing-sobre-ia-en-educaci%C3%B3/</guid>
+      <description>El Consens de Beijing sobre Intel·ligència Artificial i Educació és una declaració de principis que va ser adoptada en una reunió organitzada per la UNESC a Beijing, Xina, el maig de 2019.</description>
     </item>
     
     <item>
@@ -123,6 +141,15 @@
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/t%C3%ADpus-dinteligencia-artificial/</guid>
       <description>Podríem dir que la Intel·ligència Artificial (IA) és el camp de recerca de la informàtica de les tecnologies que encara no funcionen o existeixen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pasted/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pasted/</guid>
+      <description></description>
     </item>
     
   </channel>

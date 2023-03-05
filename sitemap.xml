@@ -2,34 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/castellano/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/chatgpt/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/ia/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/participaci%C3%B3-a-jornada-sobre-ia-i-docencia-a-la-uic/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/pon%C3%A9ncias/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/videos/</loc>
+    <lastmod>2023-03-01T02:01:58+05:30</lastmod>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</loc>
     <lastmod>2023-02-24T12:13:38+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/chatgpt/</loc>
-    <lastmod>2023-02-24T12:13:38+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/ia/</loc>
-    <lastmod>2023-02-24T12:13:38+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
-    <lastmod>2023-02-24T12:13:38+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
-    <lastmod>2023-02-24T12:13:38+05:30</lastmod>
-  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/que-es-chatgtp/</loc>
-    <lastmod>2023-02-24T12:13:38+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
     <lastmod>2023-02-24T12:13:38+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/cursos/</loc>
     <lastmod>2023-02-23T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/ice-upc/</loc>
-    <lastmod>2023-02-23T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/videos/</loc>
     <lastmod>2023-02-23T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/post-1/</loc>
@@ -39,6 +48,9 @@
     <lastmod>2023-02-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-biaix-pol%C3%ADtic-en-models-de-machine-learning/</loc>
+    <lastmod>2023-02-01T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-consens-de-beijing-sobre-ia-en-educaci%C3%B3/</loc>
     <lastmod>2023-02-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/ia/</loc>
@@ -55,9 +67,6 @@
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/prompt/</loc>
     <lastmod>2023-02-01T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/castellano/</loc>
-    <lastmod>2023-01-17T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/post-2/</loc>
     <lastmod>2023-01-17T02:01:58+05:30</lastmod>
@@ -88,5 +97,8 @@
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/software-as-a-service/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/t%C3%ADpus-dinteligencia-artificial/</loc>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pasted/</loc>
+    <priority>0</priority>
   </url>
 </urlset>
