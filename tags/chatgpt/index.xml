@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 01 Mar 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/chatgpt/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traductor simple de documentos multi-idioma en python. Un proyecto rápido.</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido/</link>
+      <pubDate>Sat, 08 Apr 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido/</guid>
+      <description>En esta entrada presento un pequeño proyecto que he publicado como open source. Lo que hantes hubiera sido un proyecto de múchos años y varios millones de euros, ahora es una pequeña prueba hecha un sabado por la mañana.</description>
+    </item>
+    
     <item>
       <title>Participació a jornada sobre IA i docencia a la UIC</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/participaci%C3%B3-a-jornada-sobre-ia-i-docencia-a-la-uic-1/</link>
@@ -33,15 +42,6 @@
       
       <guid>https://wasabi.essi.upc.edu/ludo/posts/post-1/</guid>
       <description>Si ets docent i estàs interessat en les IAs generatives i les seves aplicacions a l&amp;rsquo;ensenyament, t&amp;rsquo;interessarà saber que ja pots accedir als vídeos del curs &amp;ldquo;ChatGPT: Oportunitat i Repte per a la docència&amp;rdquo; al meu canal de Youtube.</description>
-    </item>
-    
-    <item>
-      <title>Traductor simple de documentos multi-idioma en python. Un proyecto rápido.</title>
-      <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido./</link>
-      <pubDate>Wed, 08 Apr 2020 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido./</guid>
-      <description>En esta entrada presento un pequeño proyecto que he publicado como open source. Lo que hantes hubiera sido un proyecto de múchos años y varios millones de euros, ahora es una pequeña prueba hecha un sabado por la mañana.</description>
     </item>
     
   </channel>
