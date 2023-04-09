@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 08 Apr 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Apr 2023 03:01:59 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Traductor simple de documents multi-idioma en python. Un projecte ràpid.</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-cat/</link>
+      <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/traductor-cat/</guid>
+      <description>[Nota : aquesta entrada ha estat traduida amb el pròpi traductor]
+En aquesta entrada presento un petit projecte que he publicat com a open source.</description>
+    </item>
+    
     <item>
       <title>Traductor simple de documentos multi-idioma en python. Un proyecto rápido.</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido/</link>
