@@ -50,7 +50,7 @@
       <pubDate>Wed, 01 Feb 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/about/</guid>
-      <description>Hi there! My name is Marc Alier and I&amp;rsquo;m an Associate Professor at the Politecnical University of Catalonia (UPC) since 2002.</description>
+      <description>Brief Bio Marc Alier, an Associate Professor at the Politecnical University of Catalonia (UPC), specializes in computer science, information systems, e-learning, IT Ethics and more.</description>
     </item>
     
     <item>
@@ -114,6 +114,15 @@
       
       <guid>https://wasabi.essi.upc.edu/ludo/posts/post-2/</guid>
       <description>Cada vez veo más señales que indican que Google tendrá que poner orden en la casa para ser competitivo. Como este [https://archive.</description>
+    </item>
+    
+    <item>
+      <title>Traductor simple de documentos multi-idioma en python. Un proyecto rápido.</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido./</link>
+      <pubDate>Wed, 08 Apr 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/traductor-simple-de-documentos-multi-idioma-en-python.-un-proyecto-r%C3%A1pido./</guid>
+      <description>En esta entrada presento un pequeño proyecto que he publicado como open source. Lo que hantes hubiera sido un proyecto de múchos años y varios millones de euros, ahora es una pequeña prueba hecha un sabado por la mañana.</description>
     </item>
     
     <item>
