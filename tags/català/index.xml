@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 08 Apr 2023 03:01:59 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Apr 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>I la IA va venir a l&#39;aula</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/i-la-ia-va-venir-a-laula/</link>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/i-la-ia-va-venir-a-laula/</guid>
+      <description>Diu la llegenda que el savi Anand (nom suggerit per ChatGPT, a qui jo anomeno Skippy ^2) va ajudar al rei Devendra (nom també proposat per Skippy) a resoldre un problema difícil.</description>
+    </item>
+    
     <item>
       <title>Traductor simple de documents multi-idioma en python. Un projecte ràpid.</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-cat/</link>
@@ -23,7 +32,7 @@
       <pubDate>Sun, 12 Mar 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/posts/directori-deines-ia-%C3%BAtils/</guid>
-      <description>Síntesi de veu https://speechgen.io Es una bona eina, els locutats de la versió PRO sonen realment bé. I a més tenen una estrategia de preus inteligent: compra credits per fer servir el producte ( caràcters a locutar) i no m&amp;rsquo;emprenyis amb periodes de prova ( previa autorització de tarja de credit) i quotes mensuals).</description>
+      <description>Text a veu Síntesi de veu De pagament https://speechgen.io Es una bona eina, els locutats de la versió PRO sonen realment bé.</description>
     </item>
     
     <item>

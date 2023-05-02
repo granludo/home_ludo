@@ -7,11 +7,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 08 Apr 2023 03:01:59 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 May 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Castellano</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/castellano/</link>
+      <pubDate>Mon, 01 May 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/castellano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
+      <pubDate>Mon, 01 May 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Opinión</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</link>
+      <pubDate>Mon, 01 May 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UPC</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/upc/</link>
+      <pubDate>Mon, 01 May 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/upc/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Català</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</link>
-      <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</guid>
       <description></description>
@@ -20,9 +56,36 @@
     <item>
       <title>ChatGPT</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/chatgpt/</link>
-      <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/chatgpt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cursos</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/cursos/</link>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/cursos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICE-UPC</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/ice-upc/</link>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/ice-upc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Videos</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/videos/</link>
+      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/videos/</guid>
       <description></description>
     </item>
     
@@ -32,24 +95,6 @@
       <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/code/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IA</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
-      <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Castellano</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/castellano/</link>
-      <pubDate>Sat, 08 Apr 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/castellano/</guid>
       <description></description>
     </item>
     
@@ -68,51 +113,6 @@
       <pubDate>Wed, 01 Mar 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/pon%C3%A9ncias/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Videos</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/videos/</link>
-      <pubDate>Wed, 01 Mar 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/videos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cursos</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/cursos/</link>
-      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/cursos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICE-UPC</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/ice-upc/</link>
-      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/ice-upc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Opinión</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</link>
-      <pubDate>Tue, 17 Jan 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>UPC</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/upc/</link>
-      <pubDate>Tue, 17 Jan 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/upc/</guid>
       <description></description>
     </item>
     
@@ -140,6 +140,24 @@
       <pubDate>Mon, 17 Feb 2020 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Podcast</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/podcast/</link>
+      <pubDate>Mon, 17 Feb 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/podcast/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programación</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/programaci%C3%B3n/</link>
+      <pubDate>Mon, 17 Feb 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/programaci%C3%B3n/</guid>
       <description></description>
     </item>
     
