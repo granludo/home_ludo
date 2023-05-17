@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Mi script de traducción de ficheros de texto usando el api de chatgpt. Guia de instalación - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Mi script de traducción de ficheros de texto usando el api de chatgpt. Guia de instalación" />
+<meta property="og:description" content="En esta entrada os explico como instalar y usar un pequeño script de python que he escrito. dicho script se conecta al API de OpenAI para usar GPT-3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/posts/mi-script-de-traducci%C3%B3n-de-ficheros-de-texto-usando-el-api-de-chatgpt.-guia-de-instalaci%C3%B3n/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-05-17T02:01:58+05:30" />
+<meta property="article:modified_time" content="2023-05-17T02:01:58+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mi script de traducción de ficheros de texto usando el api de chatgpt. Guia de instalación"/>
+<meta name="twitter:description" content="En esta entrada os explico como instalar y usar un pequeño script de python que he escrito. dicho script se conecta al API de OpenAI para usar GPT-3."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/dark.css"  />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom-dark.css"  />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/main.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/abc.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://wasabi.essi.upc.edu/ludo/">
+	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
+	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
+			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a><a href="https://wasabi.essi.upc.edu/ludo/index.xml" title="RSS"><i data-feather="cast"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/ludo/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/about">About me</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/videos">Videos</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/castellano">Castellano</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/catal%C3%A0">Català</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/english">English</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Mi script de traducción de ficheros de texto usando el api de chatgpt. Guia de instalación</h1>
+			<div class="meta">Posted at &mdash; May 17, 2023</div>
+		</div>
+
+		<div class="markdown">
+			<p>En esta entrada os explico como instalar y usar un pequeño script de python que he escrito. dicho script se conecta al API de OpenAI para usar GPT-3.5_turbo para traducir archivos de un idioma a otro. Sin importar que sean archivos largos. Es necesario tener una clave API de OpenAi para usar el programa. Esta Api tiene un coste, pero es muy bajo, del orden de 1 céntimo de euro la traducción.</p>
+<p>La mayor parte de esta entrada está escrita con ChatGTP y sirve como ejemplo de lo sencillo que es escribir documentación y apuntes con esta herramienta. En cualquier caso, yo soy el editor de la entrada, eligo jo que quiero que se explique y por tanto : yo soy el autor. Podemos debatir este tema, que no es trivial.</p>
+<h2 id="instalar-github-desktop">Instalar Github Desktop</h2>
+<h3 id="qué-es-github">¿Qué es Github?</h3>
+<p>Según ChatGPT</p>
+<blockquote>
+<p>GitHub es como un Google Drive para programadores, pero con algunas características adicionales muy útiles. Imagina que estás trabajando en un proyecto y quieres guardar versiones diferentes del mismo, para poder volver a una versión anterior si algo sale mal. Eso es lo que GitHub hace. Además, si trabajas en equipo, cada miembro puede trabajar en partes diferentes del proyecto al mismo tiempo, y luego GitHub ayuda a unir todo el trabajo de forma ordenada. Por último, también es como una red social para programadores, porque puedes compartir tus proyectos con otros, e incluso colaborar en proyectos de otras personas.</p>
+</blockquote>
+<p>Es una buena explicación.</p>
+<h3 id="instalar-github-desktop-1">Instalar Github Desktop</h3>
+<p>GitHub Desktop es una interfaz gráfica que permite interactuar con GitHub sin usar la línea de comandos. Es útil para gestionar repositorios, realizar commits, push y pull, resolver conflictos, entre otras cosas. Aquí te dejo unas instrucciones breves para instalarlo en Windows:</p>
+<ol>
+<li>Ve a la página oficial de GitHub Desktop en <a href="https://desktop.github.com/">https://desktop.github.com/</a></li>
+</ol>
+<p><img src="IMGS/github-desktop.png" alt=""></p>
+<ol start="2">
+<li>
+<p>Haz clic en el botón &ldquo;Download for Windows (64bit)&rdquo; si tu sistema operativo es de 64 bits. Si no estás seguro, puedes comprobarlo yendo a Configuración de Windows -&gt; Sistema -&gt; Acerca de -&gt; Tipo de sistema.</p>
+</li>
+<li>
+<p>Una vez descargado el archivo .exe, haz doble clic en él para comenzar la instalación.</p>
+</li>
+<li>
+<p>Sigue las instrucciones que aparecen en pantalla para completar la instalación.</p>
+</li>
+<li>
+<p>Una vez que la instalación se haya completado, podrás abrir GitHub Desktop desde el menú Inicio de Windows.</p>
+</li>
+<li>
+<p>La primera vez que abras la aplicación, te pedirá que inicies sesión con tu cuenta de GitHub. Si no tienes una, puedes crearla en <a href="https://github.com/">https://github.com/</a></p>
+</li>
+<li>
+<p>Una vez que hayas iniciado sesión, puedes comenzar a usar GitHub Desktop para gestionar tus repositorios de GitHub.</p>
+</li>
+</ol>
+<h2 id="instalar-python">Instalar Python</h2>
+<p>ChatGPT dice que :</p>
+<blockquote>
+<p>Python es un lenguaje de programación, lo que significa que es una forma de darle instrucciones a un ordenador. Es como una receta de cocina para la máquina: le dices exactamente qué hacer y cómo hacerlo. Lo que hace a Python especial es que está diseñado para ser fácil de leer y escribir. Es como un libro de recetas que se esfuerza por ser sencillo y claro, evitando las complicaciones innecesarias. Por eso, a menudo se utiliza para enseñar programación a los principiantes. Pero no te equivoques, Python es muy poderoso y se utiliza en muchos lugares, desde sitios web hasta investigación científica y desarrollo de juegos.</p>
+</blockquote>
+<p>Además, debemos tener en cuenta que es un lenguaje interpretado :</p>
+<blockquote>
+<p>Un lenguaje interpretado, como Python, es un tipo de lenguaje de programación que se ejecuta línea por línea, es decir, en tiempo real. Imagina que estás en una obra de teatro y el director te va diciendo qué hacer escena por escena, en vez de darte todo el guión de una vez. Así funciona Python, el ordenador va leyendo y realizando las instrucciones del código que escribiste una por una.</p>
+</blockquote>
+<blockquote>
+<p>Esto tiene algunas ventajas, como que es más fácil de aprender y usar, además de que puedes probar partes de tu código a medida que avanzas. Sin embargo, puede ser un poco más lento que otros lenguajes que se compilan (es decir, se traducen completamente a lenguaje de máquina) antes de ejecutarse.</p>
+</blockquote>
+<p><img src="IMGS/install-python.png" alt=""></p>
+<p>Para instalar Python 3.10 en Windows, puedes seguir estos pasos:</p>
+<ol>
+<li>
+<p>Ve al sitio web oficial de Python en <a href="https://www.python.org/">https://www.python.org/</a></p>
+</li>
+<li>
+<p>Haz clic en la pestaña &ldquo;Downloads&rdquo; en la parte superior de la página.</p>
+</li>
+<li>
+<p>Verás un botón que dice &ldquo;Download Python 3.10.x&rdquo; (x será un número dependiendo de la última versión disponible). Haz clic en ese botón para descargar el instalador.</p>
+</li>
+<li>
+<p>Una vez que el archivo .exe se haya descargado, haz clic en él para abrir el instalador.</p>
+</li>
+<li>
+<p>En la ventana del instalador, asegúrate de marcar la casilla &ldquo;Add Python 3.10 to PATH&rdquo; en la parte inferior. Esto hará que puedas usar Python desde la línea de comandos de Windows.</p>
+</li>
+<li>
+<p>Luego, haz clic en &ldquo;Install Now&rdquo;.</p>
+</li>
+<li>
+<p>El instalador comenzará a copiar archivos y configurar Python en tu sistema. Este proceso puede tardar unos minutos.</p>
+</li>
+<li>
+<p>Una vez que la instalación se haya completado, verás una pantalla que dice &ldquo;Setup was successful&rdquo;. ¡Ya tienes Python 3.10 instalado en tu sistema!</p>
+</li>
+<li>
+<p>Para comprobar que la instalación fue exitosa, puedes abrir la línea de comandos (CMD o PowerShell) e ingresar el comando <code>python --version</code>. Esto debería mostrar la versión de Python que acabas de instalar.</p>
+</li>
+</ol>
+<p>Lo que no dice ChatGPT es que debes asegurarte de marcar &ldquo;añadir python.exe&rdquo; al PATH.
+<img src="IMGS/python-install.png" alt="">
+&hellip;y eliminar la limitación de longitud del PATH (Disable path length limit).</p>
+<p><img src="IMGS/python-path-limit.png" alt=""></p>
+<h1 id="instalación-de-la-api-de-openai-para-python">Instalación de la API de OpenAI para Python</h1>
+<p>Para instalar la API de OpenAI para Python, necesitarás usar <code>pip</code>, que es una herramienta que viene con Python y sirve para instalar paquetes o bibliotecas adicionales.</p>
+<p>Sigue estos pasos:</p>
+<ol>
+<li>
+<p>Abre la línea de comandos de tu computadora. En Windows, puedes buscar &ldquo;CMD&rdquo; o &ldquo;Command Prompt&rdquo; en el menú de inicio.</p>
+</li>
+<li>
+<p>Una vez abierta la línea de comandos, escribe el siguiente comando y presiona Enter:</p>
+</li>
+</ol>
+<blockquote>
+<p><code>pip install openai</code></p>
+</blockquote>
+<p>Quizas &ldquo;pip&rdquo; no funciona en tu sistema y debes usar &ldquo;pip3&rdquo;</p>
+<ol start="3">
+<li>Espera a que se complete la instalación. Verás varios mensajes en la línea de comandos mientras se descarga e instala el paquete.</li>
+</ol>
+<h2 id="obtener-una-clave-de-acceso-al-api-de-openai">Obtener una clave de acceso al API de openai</h2>
+<p>Para obtener una API Key de OpenAI, debes seguir estos pasos:</p>
+<ol>
+<li>
+<p>Ve a la página web de OpenAI en <a href="https://beta.openai.com/signup/">https://beta.openai.com/signup/</a> y crea una cuenta si aún no la tienes.</p>
+</li>
+<li>
+<p>Una vez que hayas iniciado sesión, ve al Dashboard (Tablero de control).</p>
+</li>
+<li>
+<p>En el Dashboard, busca la sección de &ldquo;API Keys&rdquo; (Claves API).</p>
+</li>
+<li>
+<p>Haz clic en &ldquo;Create new API Key&rdquo; (Crear nueva clave API).</p>
+</li>
+<li>
+<p>Te pedirá que escribas un nombre para la clave y que selecciones algunas opciones. Una vez que hayas hecho esto, haz clic en &ldquo;Create&rdquo;.</p>
+</li>
+<li>
+<p>Te mostrará una nueva API Key. Asegúrate de copiarla y guardarla en un lugar seguro, ya que no podrás verla de nuevo.</p>
+</li>
+<li>
+<p>Ahora puedes usar esta clave API en tu código para interactuar con la API de OpenAI.</p>
+</li>
+</ol>
+<p>Recuerda tratar tu API Key como si fuera una contraseña, ya que proporciona acceso a tu cuenta de OpenAI y a los servicios pagados. No la compartas con nadie y no la publiques en lugares públicos como repositorios de código en GitHub.</p>
+<p>Es posible que debas dar de alta un mecanismo de pago en la plataforma ya que el acceso a las API es de pago. Para hacer pruebas con modelos como GPT-3.5_turbo el coste es muy bajo. Del orden de céntimos o milesimas de euro por llamada. Modelos como DALL-E o GPT-4 son más caros.</p>
+<h3 id="gdpr-y-api-de-openai">GDPR y API de OpenAI</h3>
+<p>OpenAI, con sede en los Estados Unidos, no debe recibir datos personales de usuarios europeos a través de su API sin garantías de cumplimiento de la GDPR. Esto significa que cuando utilices la API de OpenAI, debes asegurarte de no enviar datos que puedan identificar a una persona, como nombres, direcciones de correo electrónico, números de teléfono, y cualquier otro dato que se pueda usar para identificar a alguien.</p>
+<p>Es importante entender que la responsabilidad de garantizar que los datos enviados a la API de OpenAI cumplan con la GDPR recae en el usuario que envía los datos. Por lo tanto, siempre debes tener cuidado al manejar y procesar datos personales y asegurarte de que estás cumpliendo con todas las leyes y regulaciones aplicables.</p>
+<p>( Si quieres usar el API de OpenAI con datos sensibles en Europa debes usar la versión del API en el Cloud de Microsoft Azure <a href="https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/">https://azure.microsoft.com/en-us/products/cognitive-services/openai-service/</a> )</p>
+<h2 id="mi-programa-de-traducción">Mi programa de traducción</h2>
+<p>Mi programa de traduccion se encuentra en mi repositorio de github <a href="https://github.com/granludo/gpt-test">https://github.com/granludo/gpt-test</a> , en la carpeta file-translator. Debes usar Github Desktop para clonar la carpeta en tu ordenador.</p>
+<p>Estas son las instrucciones del Readme.md en castellano:</p>
+<p>Por Marc Alier @granludo <a href="https://wasabi.essi.upc.edu/ludo">https://wasabi.essi.upc.edu/ludo</a></p>
+<p>Licenciado bajo la Licencia Pública General de GNU v3.0</p>
+<p>Programa simple en Python 3 que utiliza el modelo GPT-3.5-turbo de OpenAI para traducir archivos de un idioma a otro. Divide el archivo en fragmentos de 20 líneas.</p>
+<h2 id="requisitos">requisitos</h2>
+<p>Necesitas tener una clave para usar la API de OpenAI, puedes obtener una aquí: <a href="https://beta.openai.com/docs/developer-quickstart/api-key">https://beta.openai.com/docs/developer-quickstart/api-key</a> este programa busca la clave en un archivo indicado en la variable &ldquo;mykeypath&rdquo; por defecto en la ruta &lsquo;..//..//mykey.json&rsquo;. (O sea dentro de la carpeta github)</p>
+<p>Ejemplo del contenido de mykey.json:</p>
+<blockquote>
+<p>{
+&ldquo;key&rdquo;: &ldquo;sk-7QzXHpaajenpuakn1tgHT3Bxxxxxxxxxxx&rdquo;
+}</p>
+</blockquote>
+<p>Necesitas instalar los paquetes json y openai</p>
+<blockquote>
+<p>pip install openai</p>
+</blockquote>
+<h2 id="uso">uso</h2>
+<blockquote>
+<p>python3 gpt-traductor.py archivo_origen idioma_origen idioma_destino archivo_destino<strong>Ejemplo</strong></p>
+</blockquote>
+<blockquote>
+<p>python3 gpt-translate.py sample.md catalan italian sample_translated.md</p>
+</blockquote>
+<p>Espero que os sea de utilidad.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/castellano">Castellano</a></li>
+								
+								<li><a href="/tags/software">software</a></li>
+								
+								<li><a href="/tags/python">python</a></li>
+								
+								<li><a href="/tags/traductor">traductor</a></li>
+								
+								<li><a href="/tags/guia-instalaci%C3%B3n">guia instalación</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-R81B664LFS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
