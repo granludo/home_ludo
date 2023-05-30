@@ -2,19 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/pagas-por-chatgpt/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/castellano/</loc>
-    <lastmod>2023-05-17T02:01:58+05:30</lastmod>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/upc/</loc>
+    <lastmod>2023-05-19T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/guia-instalaci%C3%B3n/</loc>
     <lastmod>2023-05-17T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
-    <lastmod>2023-05-17T02:01:58+05:30</lastmod>
-  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/mi-script-de-traducci%C3%B3n-de-ficheros-de-texto-usando-el-api-de-chatgpt.-guia-de-instalaci%C3%B3n/</loc>
-    <lastmod>2023-05-17T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
     <lastmod>2023-05-17T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/python/</loc>
@@ -23,22 +35,13 @@
     <loc>https://wasabi.essi.upc.edu/ludo/tags/software/</loc>
     <lastmod>2023-05-17T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
-    <lastmod>2023-05-17T02:01:58+05:30</lastmod>
-  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/traductor/</loc>
     <lastmod>2023-05-17T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/ia/</loc>
     <lastmod>2023-05-01T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/opini%C3%B3n/</loc>
-    <lastmod>2023-05-01T02:01:58+05:30</lastmod>
-  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/decalogo-sobre-el-uso-de-la-ia-en-el-aula/</loc>
-    <lastmod>2023-05-01T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/upc/</loc>
     <lastmod>2023-05-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</loc>
@@ -85,6 +88,9 @@
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/post-1/</loc>
     <lastmod>2023-02-23T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/journals-engineering-education/</loc>
+    <lastmod>2023-02-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/about/</loc>
     <lastmod>2023-02-01T02:01:58+05:30</lastmod>
