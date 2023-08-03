@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sat, 10 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Català</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</link>
+      <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enigma</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/enigma/</link>
+      <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/enigma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Història de l&#39;Informàtica</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/hist%C3%B2ria-de-linform%C3%A0tica/</link>
+      <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/hist%C3%B2ria-de-linform%C3%A0tica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/english/</link>
+      <pubDate>Mon, 17 Jul 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ethics</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/ethics/</link>
+      <pubDate>Mon, 17 Jul 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/ethics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
+      <pubDate>Mon, 17 Jul 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Castellano</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/castellano/</link>
@@ -27,15 +81,6 @@
     </item>
     
     <item>
-      <title>IA</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
-      <pubDate>Sat, 10 Jun 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Ponéncias</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/pon%C3%A9ncias/</link>
       <pubDate>Sat, 10 Jun 2023 02:01:58 +0530</pubDate>
@@ -50,6 +95,15 @@
       <pubDate>Sat, 10 Jun 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/videos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>research</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/research/</link>
+      <pubDate>Thu, 01 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/research/</guid>
       <description></description>
     </item>
     
@@ -108,24 +162,6 @@
     </item>
     
     <item>
-      <title>research</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/research/</link>
-      <pubDate>Mon, 01 May 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/research/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Català</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</link>
-      <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Cursos</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/cursos/</link>
       <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
@@ -158,42 +194,6 @@
       <pubDate>Sun, 12 Mar 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/eines/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enigma</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/enigma/</link>
-      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/enigma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Història de l&#39;Informàtica</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/hist%C3%B2ria-de-linform%C3%A0tica/</link>
-      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/hist%C3%B2ria-de-linform%C3%A0tica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/english/</link>
-      <pubDate>Fri, 17 Jul 2020 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/english/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ethics</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/ethics/</link>
-      <pubDate>Fri, 17 Jul 2020 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/ethics/</guid>
       <description></description>
     </item>
     
