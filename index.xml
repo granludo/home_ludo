@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Fri, 19 May 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 prediccions sobre IA i Internet que comparteixo</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/10-prediccions-de-david-poblador/</link>
+      <pubDate>Sat, 10 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/10-prediccions-de-david-poblador/</guid>
+      <description>L&amp;rsquo;article &amp;ldquo;The Tech Revolution: 10 Predictions about AI, Internet, and Possibly Our World in 3 Years&amp;rdquo; de David Poblador i Garcia presenta una sèrie de prediccions sobre com l&amp;rsquo;IA i internet podrien transformar el nostre món en els propers tres anys.</description>
+    </item>
+    
+    <item>
+      <title>Ludo&#39;s file on IA things</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</link>
+      <pubDate>Thu, 01 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</guid>
+      <description>OpenAi Guides and resources GPT Best Practices By Open Ai. OpenAi Cookbook on Github GPT Function Calling Use playgrounds to test stuff Function Call Explained Software industry and AI (AlphaDev discovers faster sorting algorithms)[https://www.</description>
+    </item>
+    
     <item>
       <title>¿Pagais por ChatGPT?</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/pagas-por-chatgpt/</link>
@@ -99,6 +117,24 @@
     </item>
     
     <item>
+      <title>Recursos sobre història de la informática</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/recursos-hist%C3%B2ria-de-la-inform%C3%A1tica/</link>
+      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/recursos-hist%C3%B2ria-de-la-inform%C3%A1tica/</guid>
+      <description>Conferencia John Mc Carty https://www.youtube.com/watch?v=K13_sWm_gZw&amp;amp;t=23s</description>
+    </item>
+    
+    <item>
+      <title>Una Enigma de la Guerra Civil, es conserva al costat del Campus Nord de la UPC </title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/enigma-a-l-costat-del-campus-nord/</link>
+      <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/enigma-a-l-costat-del-campus-nord/</guid>
+      <description>La màquina Enigma, l&amp;rsquo;enginy de criptografia que va jugar un paper clau durant la Segona Guerra Mundial, és un símbol potent del nostre passat tecnològic.</description>
+    </item>
+    
+    <item>
       <title>Videos del curs ChatGPT Oportunitat i repte per a la docencia v.1</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/post-1/</link>
       <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
@@ -181,12 +217,31 @@ Q1 Academy of Management Learning &amp;amp; Education JCR SCIE: NO JCR SSCI: Q1 
     </item>
     
     <item>
+      <title>Proposta formativa ChatGPT Oportunitat i repte per a la docència (presencial 6h)</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doc%C3%A8ncia-6h/</link>
+      <pubDate>Wed, 01 Feb 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doc%C3%A8ncia-6h/</guid>
+      <description>ChatGPT i Models d&amp;rsquo;IA Generativa, oportunitat i repte per a la docencia Proposta de formació presencial o online, 6h
+Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i funcionament de l&amp;rsquo;IA generativa: Comprendre què és l&amp;rsquo;IA generativa, com funciona i com es pot aplicar en diferents àmbits, com l&amp;rsquo;educació.</description>
+    </item>
+    
+    <item>
       <title>El riesgo de seguir con Google Apps para universidades como la UPC</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/post-2/</link>
       <pubDate>Tue, 17 Jan 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/posts/post-2/</guid>
       <description>Cada vez veo más señales que indican que Google tendrá que poner orden en la casa para ser competitivo. Como este [https://archive.</description>
+    </item>
+    
+    <item>
+      <title>Ai panic</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/ai-panic/</link>
+      <pubDate>Fri, 17 Jul 2020 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/ai-panic/</guid>
+      <description>Found that on the former Twitter and I thought is was on point.</description>
     </item>
     
     <item>
@@ -241,6 +296,15 @@ Q1 Academy of Management Learning &amp;amp; Education JCR SCIE: NO JCR SSCI: Q1 
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/t%C3%ADpus-dinteligencia-artificial/</guid>
       <description>Podríem dir que la Intel·ligència Artificial (IA) és el camp de recerca de la informàtica de les tecnologies que encara no funcionen o existeixen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</guid>
+      <description></description>
     </item>
     
     <item>

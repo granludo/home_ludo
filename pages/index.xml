@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 01 Feb 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ludo&#39;s file on IA things</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</link>
+      <pubDate>Thu, 01 Jun 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</guid>
+      <description>OpenAi Guides and resources GPT Best Practices By Open Ai. OpenAi Cookbook on Github GPT Function Calling Use playgrounds to test stuff Function Call Explained Software industry and AI (AlphaDev discovers faster sorting algorithms)[https://www.</description>
+    </item>
+    
     <item>
       <title>El Biaix sociopolític en models de machine learning</title>
       <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/el-biaix-pol%C3%ADtic-en-models-de-machine-learning/</link>
@@ -73,6 +82,16 @@ Q1 Academy of Management Learning &amp;amp; Education JCR SCIE: NO JCR SSCI: Q1 
     </item>
     
     <item>
+      <title>Proposta formativa ChatGPT Oportunitat i repte per a la docència (presencial 6h)</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doc%C3%A8ncia-6h/</link>
+      <pubDate>Wed, 01 Feb 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doc%C3%A8ncia-6h/</guid>
+      <description>ChatGPT i Models d&amp;rsquo;IA Generativa, oportunitat i repte per a la docencia Proposta de formació presencial o online, 6h
+Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i funcionament de l&amp;rsquo;IA generativa: Comprendre què és l&amp;rsquo;IA generativa, com funciona i com es pot aplicar en diferents àmbits, com l&amp;rsquo;educació.</description>
+    </item>
+    
+    <item>
       <title></title>
       <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/centaure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,6 +116,15 @@ Q1 Academy of Management Learning &amp;amp; Education JCR SCIE: NO JCR SSCI: Q1 
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/t%C3%ADpus-dinteligencia-artificial/</guid>
       <description>Podríem dir que la Intel·ligència Artificial (IA) és el camp de recerca de la informàtica de les tecnologies que encara no funcionen o existeixen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</guid>
+      <description></description>
     </item>
     
   </channel>
