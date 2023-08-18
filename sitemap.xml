@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/post-1-1/</loc>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</loc>
-    <lastmod>2023-08-02T02:01:58+05:30</lastmod>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/sostenibilitat/</loc>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
+    <lastmod>2023-08-16T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/ethics/</loc>
     <lastmod>2023-08-02T02:01:58+05:30</lastmod>
@@ -11,16 +26,7 @@
     <loc>https://wasabi.essi.upc.edu/ludo/tags/ia/</loc>
     <lastmod>2023-08-02T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
-    <lastmod>2023-08-02T02:01:58+05:30</lastmod>
-  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/open-source-normativa-eu-document/</loc>
-    <lastmod>2023-08-02T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
-    <lastmod>2023-08-02T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/tags/</loc>
     <lastmod>2023-08-02T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/enigma/</loc>
