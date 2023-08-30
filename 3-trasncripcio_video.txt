@@ -1,0 +1,165 @@
+Benvingudes i benvinguts a aquest tercer vídeo del curs
+xat, GPT, oportunitat directa per a la docència i ara què fem.
+En aquest vídeo que he anomenat fent-se el xitxes amb IA.
+I és perquè he canviat el meu flux de treball per preparar cursos,
+és molt diferent del que feia servir quan estava treballant
+fent vídeos per a la pandèmia.
+I volia explicar-vos-ho perquè estic fent servir
+una sèrie d'eines d'intel·ligència artificial
+que fa dos anys no tenia accessible
+i que canvia substancialment el tipus de vídeos
+o la meva manera de treballar.
+D'entrada, mireu.
+Primer de tot, correcció ortogràfica, gramatical i d'estil.
+Hi ha un problema.
+Els que treballem som trilingües,
+és a dir, que treballem en català, castellà i anglès.
+Tenim un problema quan treballem amb correctors ortogràfics,
+és que sempre hem d'estar canviant de corrector ortogràfic.
+I resulta que hi ha una cosa que es diu Language Tool.
+Aquests senyors de Language Tool
+que tenen una eina que pots instal·lar a nivell de sistema operatiu,
+que dóna diversos editors, que s'integra amb els navegadors
+i amb altres eines, com Office,
+i que et detecta automàticament el llenguatge en el que estàs escrivint
+i et fa control gramatical, et fa control d'estil,
+et proposa sinònims i detecta el llenguatge automàticament.
+Per mi és molt útil i per mi és el millor corrector ortogràfic
+que he fet servir mai i ja no faig servir cap altra cosa.
+I és una eina basada en un IA generativa.
+Per tant, ja tenim la primera eina.
+Tornem a la dels vídeos.
+Autocroma. Com faig l'autocroma?
+Perquè, doncs, si veieu aquí darrere,
+aquesta és l'eina que estic fent servir per enregistrar.
+Alguns ja el coneixereu.
+És l'Open Broadcasting Studio,
+que n'hem fet el concurs en Alice,
+en què el Gavarró ha fet alguns cursos d'OBS.
+Però perquè jo surti en aquesta imatge d'aquí,
+he de tenir un croma.
+Però resulta que no tinc un croma a darrere meu.
+Segurament es veurà.
+Ah, no. No tinc un croma a darrere meu.
+No hi ha croma, sinó que el que tinc
+és simplement un efecte en temps real
+de la casa NVIDIA,
+que amb la targeta gràfica de gaming que tinc posada en aquest PC
+em genera un croma,
+genera una càmera virtual
+i l'agafo des de l'OBS.
+Així estic fent això.
+Però no només això,
+sinó que tinc aquest plug-in d'Eye Contact Beta,
+que és una meravella,
+que, mireu el que ha fet de cop i volta.
+Ara us estic mirant els ulls
+i ara no estic mirant, estic mirant la pantalla.
+Genera aquest efecte de mirar cap a la càmera automàticament,
+que crec que millora una miqueta
+la sensació que dóna el curs.
+Però clar, normalment jo estic mirant la pantalla,
+ara m'estic mirant a mi mateix,
+però en realitat la targeta gràfica,
+a través d'una eina de Machine Learning,
+està fent que sembli que jo miri en la càmera,
+que la tinc una mica per sobre de la pantalla
+que estic fent servir.
+Doncs fixeu-vos-hi, és prou intergener.
+Per tant, una mirada a miar.
+Aquesta eina també em permet
+aplicar eines d'eliminació,
+eliminar so, soroll
+i eliminar eco a la sala en què estic treballant,
+tot i que en aquest cas el so el milloro en postproducció,
+però també en filtres d'intel·ligència artificial
+que estic incorporant en el procés.
+És a dir, ara el meu workflow,
+tant la millora de l'àudio, com la millora del vídeo,
+com el Chrome, sense haver de tenir una cosa verda aquí darrere,
+doncs estic fent tota una sèrie de coses,
+utilitzant IA.
+Què més estic fent servir?
+Transcripció, transcripció molt important.
+Hi ha una eina de la mateixa empresa que ha fet OpenAI,
+que ha fet el xat GPT, OpenAI,
+que es diu Whisper.
+I Whisper, bàsicament, és un model
+que és un model de xarxa neuronal
+que el que fa és reconèixer
+i fa transcripció i traducció de parla
+i amb una precisió que s'acosta al nivell humà.
+Coses interessants, és Open Source
+i per tant el tinc instal·lat en la màquina aquesta que tinc aquí al costat.
+I coses interessants, aquí explica dades
+i com fer-ho, com fer-ho anar, com engegar-ho a la vostra màquina,
+però fixeu-vos-hi que el llenguatge que reconeix millor
+és l'Spanish, és el castellà,
+i el català és un estat, diguéssim,
+d'entre els deu primers llenguatges que reconeix amb qualitat.
+Llavors, és una eina
+i aquí, em sembla que per aquí tinc la carpeta
+i llavors en aquest cas el que he fet és
+passar els vídeos que he gravat amb anterioritat
+i m'ha generat aquests arxius
+que jo podria agafar.
+Puc agafar i aquí tinc el meu vídeo.
+Només s'equivoca amb el meu cognom
+i puc anar veient tot l'arxiu.
+Això en realitat és un arxiu, aquest arxiu
+és un arxiu en format SRT
+que quan he pujat a YouTube el vídeo
+li he incorporat els subtítols.
+També em genera, puc fer un...
+ja m'ha generat un fitxet aquest XT
+en el que tinc tot el text
+i puc agafar i jugar amb aquest text.
+Llavors, per exemple, jo ara podria agafar aquest text
+i copiar-lo
+i per primera vegada en aquest curs
+entrar live a dintre
+de xatgpt i dir...
+I veiem que xatgpt m'està agafant
+i ens està donant un petit resum d'una part.
+Abans hi ha la falta d'ortografia en el meu cognom
+però està explicant una miqueta
+el que comença dient el meu text.
+És a dir, jo puc generar, d'enganxar professionalment
+que em fa un resum d'aquest text que jo he posat aquí
+i podria anar agafant i fent més coses
+posant les diferents parts del document
+i demanant que em faci quins són els punts claus
+i fer un resum.
+Doncs res més per aquest vídeo
+que em sembla que està sent prou curt
+puc fer correcció ortogràfica i gramatical
+millorada amb intel·ligència artificial
+en el que detecta l'idioma de cada document que estic escrivint
+puc generar autocromes en els vídeos que estic fent
+puc modificar la mirada, no sé que miri lluny
+però si no em va modificant aquesta millora
+puc millorar la reducció de soroll
+tinc una eina de transcripció
+fins i tot podria ser el mateix Whisper
+li puc demanar que em faci una traducció a un altre idioma
+i per tant podria tenir subtítols en un altre idioma
+posar per exemple en castellà
+i després podem veure que aquest text
+que jo he estat explicant
+després ho puc posar a dintre del xat GPT
+i demanar-li que em faci un resum
+que m'extregui quins són els punts claus
+o li podria demanar que m'expliqués aquest text
+en forma de poema o que em composés una cançó
+a partir d'aquest text
+no és que sigui gaire interessant ni gaire important
+però són eines que de cop i volta
+canvien el meu flux de treball
+i canvien la qualitat o el tipus de coses que puc fer
+coses tan senzilles com dir
+donar una transcripció dels meus vídeos
+per qui no tingui ganes de veure'ls sencer
+i coses per l'estil
+i en el proper vídeo parlaré
+d'intel·ligències artificials generatives
+Fins demà!
