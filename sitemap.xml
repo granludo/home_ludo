@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://wasabi.essi.upc.edu/ludo/cursos/</loc>
+    <lastmod>2023-08-30T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_cat/</loc>
+    <lastmod>2023-08-30T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
+    <lastmod>2023-08-30T02:01:58+05:30</lastmod>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/</loc>
+    <lastmod>2023-08-30T02:01:58+05:30</lastmod>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/about/</loc>
     <lastmod>2023-08-16T02:01:58+05:30</lastmod>
   </url><url>
@@ -11,7 +23,7 @@
     <loc>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</loc>
     <lastmod>2023-08-16T02:01:58+05:30</lastmod>
   </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/</loc>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</loc>
     <lastmod>2023-08-16T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/</loc>
@@ -66,9 +78,6 @@
     <lastmod>2023-06-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</loc>
-    <lastmod>2023-06-01T02:01:58+05:30</lastmod>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/pages/</loc>
     <lastmod>2023-06-01T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/research/</loc>
@@ -199,9 +208,6 @@
     <priority>0</priority>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/untitled-1/</loc>
-    <priority>0</priority>
-  </url><url>
-    <loc>https://wasabi.essi.upc.edu/ludo/untitled/</loc>
     <priority>0</priority>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/</loc>

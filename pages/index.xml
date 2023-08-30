@@ -7,7 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Thu, 01 Jun 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cursos en català</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_cat/</link>
+      <pubDate>Wed, 30 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_cat/</guid>
+      <description>Cursos i continguts educatius Creats per Marc Alier, Professor Agregat Universitat Politècnica de Catalunya
+Cursos subjectes a Llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.</description>
+    </item>
+    
+    <item>
+      <title>Curs ChatGPT Oportunitat i Repte per a la docencia</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</link>
+      <pubDate>Wed, 16 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</guid>
+      <description>Els continguts del curs estan subjectes a Llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0 Internacional.</description>
+    </item>
+    
     <item>
       <title>Ludo&#39;s file on IA things</title>
       <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/</link>
