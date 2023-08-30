@@ -56,7 +56,7 @@ Els oceans són una esponja de carboni massiva, absorbint un quart de les emissi
       <description>© Marc Alier 2023 https://wasabi.essi.upc.edu/ludo
 Introducció Transparències video 1
 2. La llei dels rendiments accelerats Transparències video 2
-3. Fent salsitxes amb IA Transcripció video</description>
+3. Fent salsitxes amb IA Transcripció video 3</description>
     </item>
     
     <item>
@@ -324,6 +324,15 @@ Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i
     
     <item>
       <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/</guid>
+      <description>Benvingudes i Benvinguts al Tercer Vídeo del Curs: &amp;ldquo;Fent Salsitxes amb IA&amp;rdquo; Introducció Benvingudes i benvinguts a aquest tercer vídeo del curs sobre xat, GPT, i les oportunitats que aquestes eines ofereixen per a la docència.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/centaure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -356,24 +365,6 @@ Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/pasted/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/pasted/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/untitled-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/untitled-1/</guid>
-      <description>This is an old updated example text.</description>
     </item>
     
   </channel>
