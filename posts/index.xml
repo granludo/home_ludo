@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 16 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embeddings, Context uses and Self Referencing in LLMS</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/embeddings-context-uses-and-self-referencing/</link>
+      <pubDate>Thu, 31 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/embeddings-context-uses-and-self-referencing/</guid>
+      <description>Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message.</description>
+    </item>
+    
     <item>
       <title>Captura Directa de CO2 a l&#39;Oceà: Una Nova Eina per Combatre el Canvi Climàtic</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/post-1-1/</link>

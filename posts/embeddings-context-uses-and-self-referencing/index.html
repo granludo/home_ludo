@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Embeddings, Context uses and Self Referencing in LLMS - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Embeddings, Context uses and Self Referencing in LLMS" />
+<meta property="og:description" content="Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/posts/embeddings-context-uses-and-self-referencing/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-31T02:01:58+05:30" />
+<meta property="article:modified_time" content="2023-08-31T02:01:58+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Embeddings, Context uses and Self Referencing in LLMS"/>
+<meta name="twitter:description" content="Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/main.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/abc.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://wasabi.essi.upc.edu/ludo/">
+	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
+	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
+			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a><a href="https://wasabi.essi.upc.edu/ludo/index.xml" title="RSS"><i data-feather="cast"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/ludo/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/about">About me</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/cursos">Cursos</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/castellano">Castellano</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/catal%C3%A0">Català</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/english">English</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Embeddings, Context uses and Self Referencing in LLMS</h1>
+			<div class="meta">Posted at &mdash; Aug 31, 2023</div>
+		</div>
+
+		<div class="markdown">
+			<div>
+    <h2>Table Of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#3-the-context-in-llms-based-on-transformers">3 The context in LLMs based on transformers**</a>
+      <ul>
+        <li><a href="#31-context-as-ad-hoc-training">3.1 Context as Ad Hoc Training</a></li>
+        <li><a href="#24-the-evolution-of-contextual-understanding-the-system-message">2.4. The Evolution of Contextual Understanding: The System Message.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<p>Generative AI models, especially Large Language Models (LLMs) like GPT and its successors, have become a pivotal force in the advancement of artificial intelligence. While these models have gained prominence for their capabilities in natural language processing (NLP)—including tasks such as sentiment analysis, machine translation, and content generation—their applications extend beyond the realm of NLP [11].</p>
+<p>One of the key objectives of this paper is to explore the specific features and architecture of generative AI models that make them a foundational technology for the development of Smart Learning Applications. This exploration serves as a part of a broader inquiry into the capabilities, limitations, and potential applications of these models. While the growing field of AI offers options for training and fine-tuning models, thanks to open-source initiatives like Lama 2 and platforms like OpenAssistant, this paper takes a different angle. We seek to understand how the existing functionalities of readily available models can be effectively utilized to develop Smart Learning Applications without requiring extensive modifications.</p>
+<p>By examining critical components such as embeddings and the model&rsquo;s ability to understand context, this paper aims to provide a nuanced understanding that can guide the development of educational technology and open up new avenues for innovation.</p>
+<p>1 Embeddings**</p>
+<p>At the heart of LLMs is the concept of &ldquo;embedding.&rdquo; In NLP, embeddings serve the purpose of transforming linguistic entities—whether they are words, phrases, or entire documents—into numerical vectors of fixed dimensions. Mikolov et al. introduced the Word2Vec model, a popular method for generating word embeddings, which has been foundational in the development of embeddings in LLMs [12]. This transformation is pivotal as it allows textual data to be represented in a manner that is both computationally efficient and semantically rich. Through the process of embedding, LLMs are equipped to discern intricate patterns and relationships in language.</p>
+<p>2 Practical Applications of Embeddings</p>
+<p>LLMs utilize embeddings for a myriad of tasks. From sentiment analysis and machine translation to the generation of content, the capabilities of LLMs are vast. The inherent numerical nature of embeddings facilitates operations that can deduce relationships, draw analogies, and discern nuances in language. In the realm of machine translation, embeddings have been instrumental in identifying equivalent terms across languages, ensuring that translations maintain their intended meaning and accuracy [13].</p>
+<p>A notable example of the practical application of embeddings is provided by <a href="http://chatpdf.com/">ChatPDF.com</a>, a turnkey system that allows for the embedding of entire PDFs, spanning hundreds of pages. This system enables a chat interface with the document, offering an innovative approach to document interaction. <a href="http://chatpdf.com/">ChatPDF.com</a> also provides an API for developers, making it easier to integrate this embedding-friendly model into various applications [14].</p>
+<p><img src="pages/open_courseware/en/img1.png" alt="">
+Fig 2. ChatPDF enables a chat conversation with the contents of a document. In the example a conversation with the paper “Attention is all you need”</p>
+<h2 id="3-the-context-in-llms-based-on-transformers">3 The context in LLMs based on transformers**</h2>
+<p>In the realm of LLMs, particularly models like GPT-4 and BERT based on the transformer architecture, the term &ldquo;context&rdquo; denotes the immediate surrounding information that the model leverages to generate a response [15, 16]. For GPT-4, this context is derived from the preceding text in a conversation or document. Such context is indispensable as it provides the model with insights into the ongoing topic, the tone and style of the conversation, and any specific instructions or constraints.</p>
+<p>An essential mechanism that enables this contextual understanding is the &ldquo;attention&rdquo; mechanism. In transformer architectures, attention allows the model to weigh different parts of the input text differently. This means that when generating a response, the model doesn&rsquo;t treat all words or tokens in the context equally. Instead, it &ldquo;attends&rdquo; more to certain parts that are more relevant to the query or prompt at hand. For example, if the conversation is about climate change, words like &ldquo;emissions,&rdquo; &ldquo;carbon,&rdquo; and &ldquo;temperature&rdquo; might receive higher attention weights. This attention mechanism works in tandem with the context to produce more accurate and contextually appropriate responses.</p>
+<p>However, the understanding of context in LLMs extends beyond just the immediate preceding text. Given the vast datasets these models are trained on, they possess a comprehensive understanding of a multitude of topics. When presented with a specific context, the model delves into this extensive knowledge base, honing in on the relevant segments to craft an appropriate response.</p>
+<h3 id="31-context-as-ad-hoc-training">3.1 Context as Ad Hoc Training</h3>
+<p>The proposition of utilizing context as a form of ad hoc training presents a novel approach to interacting with LLMs. Howard and Ruder introduced the idea of fine-tuning pre-trained models for specific tasks, which is somewhat related to the idea of ad hoc training [17].</p>
+<p>By furnishing an LLM with a distinct context or a set of instructions, users have the capability to &ldquo;guide&rdquo; the model&rsquo;s responses in real-time. This method of providing contextual guidance effectively acts as instantaneous training, molding the model&rsquo;s behavior without necessitating alterations to its foundational architecture or weights.</p>
+<p>In our exploration of the role of context in language models, we present two contrasting figures to highlight the difference that context can make in the responses generated by a chatbot.</p>
+<p><em>Fig. 3 depicts a scenario where a chatbot, trained on data up to 2021, is asked to write a two-paragraph essay about the 2023 FIFA Women&rsquo;s World Cup from the perspective of a 10-year-old girl. In this case, the chatbot lacks the specific context of the event and therefore produces a response based on its pre-2021 training, lacking in specific details about the event.</em></p>
+<p><img src="pages/open_courseware/en/img2.png" alt="">
+<em><strong>Fig. 3:</strong> A screenshot of a chatbot interaction where the chatbot, trained on data up to 2021, is asked to write a two-paragraph essay about the 2023 FIFA Women&rsquo;s World Cup from the perspective of a 10-year-old girl. The chatbot&rsquo;s response lacks specific details about the event.</em></p>
+<p><em>On the other hand, Fig. 4 shows the same chatbot, but this time it is provided with context in the form of a text snippet from the Wikipedia page about the 2023 FIFA Women&rsquo;s World Cup. When asked the same question, the chatbot is able to generate a detailed response, discussing the sports event, the results, participating countries, and individuals involved, as if it had been specifically trained on that information.</em></p>
+<p><img src="pages/open_courseware/en/img3.png" alt="">
+<em><strong>Fig. 4:</strong> A screenshot of the same chatbot interaction, but this time the chatbot is provided with a text snippet from the Wikipedia page about the 2023 FIFA Women&rsquo;s World Cup. When asked the same question, the chatbot generates a detailed response, discussing the sports event, the results, participating countries, and individuals involved, showcasing the power of contextual information.</em></p>
+<p>3.2 Self-Referential Context and Programmability in LLMs**_</p>
+<p><em>An often-overlooked aspect of context in LLMs is the self-referential nature of their responses. As an LLM generates a response, that output becomes part of the ongoing context for subsequent interactions. This dynamic feature enables a unique form of programmability and direction-following in LLMs.</em></p>
+<p><em>One aspect of context in advanced Language Learning Models (LLMs) like GPT-4 and GPT-3.5 that warrants closer attention is the self-referential nature of their generated responses. While earlier models in the GPT series have some ability to use context within a single interaction, this capability has been significantly enhanced in more recent versions. Advanced LLMs can incorporate their own generated text into the context for future interactions as represented in Fig 5., meaning that as the model generates a response, that newly generated content doesn&rsquo;t just serve as an answer to a query; it also becomes part of the evolving context that informs subsequent responses.</em></p>
+<p><img src="pages/open_courseware/en/img4.png" alt="">
+<em><strong>Fig. 5:</strong> The generated response is incorporated into the ongoing context, influencing the LLM&rsquo;s attention mechanism as the answer continues to be generated in a recursive manner.</em></p>
+<p>This feature introduces a level of dynamic context updating, allowing the model to follow directions or carry out tasks in a more nuanced manner. For example, if an advanced LLM like GPT-4 or GPT-3.5 is asked to generate a recipe and then create a shopping list based on that recipe, the model can use the ingredients listed in its own generated recipe as context for compiling the shopping list. This not only shows the model&rsquo;s ability to understand and maintain context but also highlights its capability to be &ldquo;programmable&rdquo; within the scope of a single interaction. This self-referential context updating makes advanced LLMs versatile tools for more complex, multi-step tasks and interactions.</p>
+<p>To illustrate this in fee Fig 6 we asked GPT-4 to generate a recipe for spaghetti bolognese and then create a shopping list based on that recipe. The model first listed the ingredients and steps for the dish and then used this information to compile a shopping list. This shows that the model can use its own generated text as context for a subsequent task within the same interaction.</p>
+<p>This example highlights a straightforward but important feature: the model&rsquo;s ability to update its context dynamically. The shopping list isn&rsquo;t just a separate output; it&rsquo;s directly related to the recipe the model itself provided. This demonstrates that language models can follow directions from their own generated text, allowing for more nuanced and context-aware interactions.</p>
+<p><img src="pages/open_courseware/en/img5.png" alt="">
+<em><strong>Fig. 6:</strong> A screenshot of a chatbot interaction where the user asks GPT4 for a spaghetti bolognese recipe followed by a shopping list. The chatbot first generates the recipe and then uses it as context to create a shopping list, demonstrating the concept of Dynamic Context Updating.</em></p>
+<p>In an educational setting, the self-referential context can be leveraged to enable a chatbot to review, grade, or provide feedback on student exercises. Typically, when presented with the text of an exercise and a student&rsquo;s solution, both GPT-3.5 and GPT-4 tend to perform poorly in grading and offering feedback. However, the performance improves significantly when the chatbot is instructed to first solve the problem itself, then compare the student&rsquo;s solution with its own generated solution, and finally provide a grade and feedback. The results using this approach are markedly better.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>prompt <span style="color:#719e07">=</span> <span style="color:#2aa198">f</span><span style="color:#2aa198">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Determine if the student&#39;s solution is correct or not.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Question:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">I&#39;m building a solar power installation and I need </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198"> help working out the financials. 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- Land costs $100 / square foot
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- I can buy solar panels for $250 / square foot
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- I negotiated a contract for maintenance that will cost </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">me a flat $100k per year, and an additional $10 / square </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">foot
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">What is the total cost for the first year of operations 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">as a function of the number of square feet.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Student&#39;s Solution:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Let x be the size of the installation in square feet.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Costs:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">1. Land cost: 100x
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">2. Solar panel cost: 250x
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">3. Maintenance cost: 100,000 + 100x
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>response <span style="color:#719e07">=</span> get_completion(prompt)
+</span></span><span style="display:flex;"><span><span style="color:#b58900">print</span>(response)
+</span></span></code></pre></div><p>The code we shown above presents an example of prompt asking the chatbot to determine if a student&rsquo;s solution is correct or not. The results will be poor, using this approach. But in the next fragment of code we can see how instructing carefully in the prompt to first solve de problem and then consider the students solution the results will be much improved (Source OpenAI Cookbook[18]).</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>prompt <span style="color:#719e07">=</span> <span style="color:#2aa198">f</span><span style="color:#2aa198">&#34;&#34;&#34;
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Your task is to determine if the student&#39;s solution </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">is correct or not.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">To solve the problem do the following:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- First, work out your own solution to the problem. 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- Then compare your solution to the student&#39;s solution </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198"> 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">and evaluate if the student&#39;s solution is correct or not. 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Don&#39;t decide if the student&#39;s solution is correct until 
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">you have done the problem yourself.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Use the following format:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Question:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">question here
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Student&#39;s solution:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">student&#39;s solution here
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Actual solution:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">steps to work out the solution and your solution here
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Is the student&#39;s solution the same as actual solution </span><span style="color:#cb4b16">\\</span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">just calculated:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">yes or no
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Student grade:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">correct or incorrect
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Question:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">I&#39;m building a solar power installation and I need help \ working out the financials.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- Land costs $100 / square foot
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- I can buy solar panels for $250 / square foot
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">- I negotiated a contract for maintenance that will cost \ me a flat $100k per year, and an additional $10 / square \ foot What is the total cost for the first year of operations \ as a function of the number of square feet.
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Student&#39;s solution:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Let x be the size of the installation in square feet. Costs:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">1. Land cost: 100x
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">2. Solar panel cost: 250x
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">3. Maintenance cost: 100,000 + 100x Total cost: 100x + 250x + 100,000 + 100x = 450x + 100,000
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">---
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">Actual solution:
+</span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>response <span style="color:#719e07">=</span> get_completion(prompt)
+</span></span><span style="display:flex;"><span><span style="color:#b58900">print</span>(response)
+</span></span></code></pre></div><h3 id="24-the-evolution-of-contextual-understanding-the-system-message">2.4. The Evolution of Contextual Understanding: The System Message.</h3>
+<p>In March 2023, OpenAI introduced a groundbreaking feature in the API of their GPT 3.5 and GPT 4 models: the &ldquo;system message&rdquo; [18]. Prior to this update, the API allowed for the model to receive prompts and context through an array of messages categorized as either &ldquo;user&rdquo; (messages prompted by the user) or &ldquo;agent&rdquo; (previous responses generated by the model). The system message, however, is designed to be the first message in this array.</p>
+<p>The system message serves a critical function: it outlines the role and behavioral parameters expected of the LLM. This allows for a more nuanced and directed interaction with the model, as it provides the LLM with guidelines on how to respond to subsequent prompts.</p>
+<p>The introduction of the system message significantly enhances the user&rsquo;s ability to guide the model&rsquo;s behavior in real-time, effectively serving as an extension of the ad hoc training concept discussed earlier. It offers users a more refined tool for customizing the model&rsquo;s responses, thereby elevating the level of interaction to a more dynamic and tailored experience.</p>
+<p>The following fragment shows Python code which demonstrates how to use the system message feature to set the behavior of the model as a Socratic mentor.</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#719e07">import</span> openai
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#719e07">...</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Define the system message to set the behavior of the model as a Socratic mentor</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>system_message <span style="color:#719e07">=</span> {
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;role&#39;</span>: <span style="color:#2aa198">&#39;system&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;content&#39;</span>: <span style="color:#2aa198">&#39;You are a Socratic mentor. Engage in thoughtful dialogue,ask probing questions, and guide the user to deeper understanding.&#39;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Define a user message</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>user_message1 <span style="color:#719e07">=</span> {
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;role&#39;</span>: <span style="color:#2aa198">&#39;user&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;content&#39;</span>: <span style="color:#2aa198">&#39;What is the meaning of life?&#39;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Define an agent message (a previous response from the model, if any)</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>agent_message1 <span style="color:#719e07">=</span> {
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;role&#39;</span>: <span style="color:#2aa198">&#39;agent&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;content&#39;</span>: <span style="color:#2aa198">&#39;The meaning of life is a deeply philosophical question. What do you think it is?&#39;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Define another user message</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>user_message2 <span style="color:#719e07">=</span> {
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;role&#39;</span>: <span style="color:#2aa198">&#39;user&#39;</span>,
+</span></span><span style="display:flex;"><span><span style="color:#2aa198">&#39;content&#39;</span>: <span style="color:#2aa198">&#39;I think it is to find happiness.&#39;</span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Combine all messages into a list</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>messages <span style="color:#719e07">=</span> [system_message, user_message1, agent_message1, user_message2]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#586e75"># Make an API call to GPT-4</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>response <span style="color:#719e07">=</span> openai<span style="color:#719e07">.</span>Completion<span style="color:#719e07">.</span>create(
+</span></span><span style="display:flex;"><span>model<span style="color:#719e07">=</span><span style="color:#2aa198">&#34;gpt-4&#34;</span>,
+</span></span><span style="display:flex;"><span>messages<span style="color:#719e07">=</span>messages
+</span></span><span style="display:flex;"><span>)
+</span></span></code></pre></div><p>This code snippet illustrates how the system message can be used to guide the model&rsquo;s behavior, making the interaction more dynamic and tailored to individual needs.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-R81B664LFS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

@@ -7,14 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 30 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cursos / Courses by Marc Alier</title>
       <link>https://wasabi.essi.upc.edu/ludo/cursos/</link>
       <pubDate>Thu, 31 Aug 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/cursos/</guid>
-      <description>Cursos en Català: ChatGPT Oportunitat i repte per a la docencia Cursos en Castellano *ChatGPT Oportunidad y Reto para la Docencia </description>
+      <description>Cursos en Català ChatGPT Oportunitat i repte per a la docencia Cursos en Castellano *ChatGPT Oportunidad y Reto para la Docencia Courses in English [ChatGPT Opportunity and challenge for education](pages/open_courseware/en/ChatGPT Opportunity and challenge for education) © Marc Alier 2023 https://wasabi.</description>
+    </item>
+    
+    <item>
+      <title>Embeddings, Context uses and Self Referencing in LLMS</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/embeddings-context-uses-and-self-referencing/</link>
+      <pubDate>Thu, 31 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/embeddings-context-uses-and-self-referencing/</guid>
+      <description>Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message.</description>
+    </item>
+    
+    <item>
+      <title>Course: ChatGPT challenge and oportunity for teaching</title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt-opportunity-and-challenge-for-education/</link>
+      <pubDate>Wed, 30 Aug 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt-opportunity-and-challenge-for-education/</guid>
+      <description>Table Of Contents Future Shock Prompts and interactions with ChatGpt used in this video 2. LLM Basics 3. Training ChatGPT Prompts and interactions with ChatGpt used in this video Complementary readings Future Shock Slides</description>
     </item>
     
     <item>
@@ -23,10 +41,7 @@
       <pubDate>Wed, 30 Aug 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</guid>
-      <description>© Marc Alier 2023 https://wasabi.essi.upc.edu/ludo
-Introducció Transparències Vídeo 1
-2. La Llei dels Rendiments Accelerats Transparències Vídeo 2
-3. Fent Salsitxes amb IA Transcripció Vídeo 3 Enllaços:</description>
+      <description>Table Of Contents Introducció 6. Casos d’us de ChatGPT (I) 7. Guerres de Tonner 8. ChatGPT dins l’aula 9. Casos d&amp;rsquo;us de ChatGPT i II Video 10.</description>
     </item>
     
     <item>
@@ -35,8 +50,7 @@ Introducció Transparències Vídeo 1
       <pubDate>Wed, 30 Aug 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/es/chatgpt_es_v1/</guid>
-      <description>© Marc Alier 2023 https://wasabi.essi.upc.edu/ludo
-Table Of Contents 1. El Shock del futuro. Curso ChatGPT Oportunidad y reto para la docencia 2.</description>
+      <description>Table Of Contents 1. El Shock del futuro. Curso ChatGPT Oportunidad y reto para la docencia 2. Puntos sobre las IAS 4.</description>
     </item>
     
     <item>
@@ -348,6 +362,15 @@ Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i
       
       <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/</guid>
       <description>Benvingudes i Benvinguts al Tercer Vídeo del Curs: &amp;ldquo;Fent Salsitxes amb IA&amp;rdquo; Introducció Benvingudes i benvinguts a aquest tercer vídeo del curs sobre xat, GPT, i les oportunitats que aquestes eines ofereixen per a la docència.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/courses_en/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/courses_en/</guid>
+      <description></description>
     </item>
     
     <item>
