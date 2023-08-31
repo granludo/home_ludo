@@ -4,14 +4,14 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Embeddings, Context uses and Self Referencing in LLMS - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Embeddings, Context uses and Self Referencing in LLMS" />
-<meta property="og:description" content="Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message." />
+<meta property="og:description" content="Table Of Contents 1 Embeddings 1.2 Practical Applications of Embeddings 2 The context in LLMs based on transformers** 2.1 Context as Ad Hoc Training 3 Self-Referential Context and Programmability in LLMs**_ References Generative AI models, especially Large Language Models (LLMs) like GPT and its successors, have become a pivotal force in the advancement of artificial intelligence." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/posts/embeddings/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-31T02:01:58+05:30" />
 <meta property="article:modified_time" content="2023-08-31T02:01:58+05:30" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Embeddings, Context uses and Self Referencing in LLMS"/>
-<meta name="twitter:description" content="Table Of Contents 3 The context in LLMs based on transformers** 3.1 Context as Ad Hoc Training 2.4. The Evolution of Contextual Understanding: The System Message."/>
+<meta name="twitter:description" content="Table Of Contents 1 Embeddings 1.2 Practical Applications of Embeddings 2 The context in LLMs based on transformers** 2.1 Context as Ad Hoc Training 3 Self-Referential Context and Programmability in LLMs**_ References Generative AI models, especially Large Language Models (LLMs) like GPT and its successors, have become a pivotal force in the advancement of artificial intelligence."/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
@@ -87,12 +87,17 @@
     <h2>Table Of Contents</h2>
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#3-the-context-in-llms-based-on-transformers">3 The context in LLMs based on transformers**</a>
+    <li><a href="#1-embeddings">1 Embeddings</a>
       <ul>
-        <li><a href="#31-context-as-ad-hoc-training">3.1 Context as Ad Hoc Training</a></li>
-        <li><a href="#24-the-evolution-of-contextual-understanding-the-system-message">2.4. The Evolution of Contextual Understanding: The System Message.</a></li>
+        <li><a href="#12-practical-applications-of-embeddings">1.2 Practical Applications of Embeddings</a></li>
       </ul>
     </li>
+    <li><a href="#2-the-context-in-llms-based-on-transformers">2 The context in LLMs based on transformers**</a>
+      <ul>
+        <li><a href="#21-context-as-ad-hoc-training">2.1 Context as Ad Hoc Training</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-self-referential-context-and-programmability-in-llms_">3 Self-Referential Context and Programmability in LLMs**_</a></li>
     <li><a href="#references"><strong>References</strong></a></li>
   </ul>
 </nav>
@@ -101,18 +106,18 @@
 <p>Generative AI models, especially Large Language Models (LLMs) like GPT and its successors, have become a pivotal force in the advancement of artificial intelligence. While these models have gained prominence for their capabilities in natural language processing (NLP)—including tasks such as sentiment analysis, machine translation, and content generation—their applications extend beyond the realm of NLP [11].</p>
 <p>One of the key objectives of this paper is to explore the specific features and architecture of generative AI models that make them a foundational technology for the development of Smart Learning Applications. This exploration serves as a part of a broader inquiry into the capabilities, limitations, and potential applications of these models. While the growing field of AI offers options for training and fine-tuning models, thanks to open-source initiatives like Lama 2 and platforms like OpenAssistant, this paper takes a different angle. We seek to understand how the existing functionalities of readily available models can be effectively utilized to develop Smart Learning Applications without requiring extensive modifications.</p>
 <p>By examining critical components such as embeddings and the model&rsquo;s ability to understand context, this paper aims to provide a nuanced understanding that can guide the development of educational technology and open up new avenues for innovation.</p>
-<p>1 Embeddings**</p>
+<h2 id="1-embeddings">1 Embeddings</h2>
 <p>At the heart of LLMs is the concept of &ldquo;embedding.&rdquo; In NLP, embeddings serve the purpose of transforming linguistic entities—whether they are words, phrases, or entire documents—into numerical vectors of fixed dimensions. Mikolov et al. introduced the Word2Vec model, a popular method for generating word embeddings, which has been foundational in the development of embeddings in LLMs [12]. This transformation is pivotal as it allows textual data to be represented in a manner that is both computationally efficient and semantically rich. Through the process of embedding, LLMs are equipped to discern intricate patterns and relationships in language.</p>
-<p>2 Practical Applications of Embeddings</p>
+<h3 id="12-practical-applications-of-embeddings">1.2 Practical Applications of Embeddings</h3>
 <p>LLMs utilize embeddings for a myriad of tasks. From sentiment analysis and machine translation to the generation of content, the capabilities of LLMs are vast. The inherent numerical nature of embeddings facilitates operations that can deduce relationships, draw analogies, and discern nuances in language. In the realm of machine translation, embeddings have been instrumental in identifying equivalent terms across languages, ensuring that translations maintain their intended meaning and accuracy [13].</p>
 <p>A notable example of the practical application of embeddings is provided by <a href="http://chatpdf.com/">ChatPDF.com</a>, a turnkey system that allows for the embedding of entire PDFs, spanning hundreds of pages. This system enables a chat interface with the document, offering an innovative approach to document interaction. <a href="http://chatpdf.com/">ChatPDF.com</a> also provides an API for developers, making it easier to integrate this embedding-friendly model into various applications [14].</p>
 <p><img src="pages/open_courseware/en/img1.png" alt="">
 Fig 2. ChatPDF enables a chat conversation with the contents of a document. In the example a conversation with the paper “Attention is all you need”</p>
-<h2 id="3-the-context-in-llms-based-on-transformers">3 The context in LLMs based on transformers**</h2>
+<h2 id="2-the-context-in-llms-based-on-transformers">2 The context in LLMs based on transformers**</h2>
 <p>In the realm of LLMs, particularly models like GPT-4 and BERT based on the transformer architecture, the term &ldquo;context&rdquo; denotes the immediate surrounding information that the model leverages to generate a response [15, 16]. For GPT-4, this context is derived from the preceding text in a conversation or document. Such context is indispensable as it provides the model with insights into the ongoing topic, the tone and style of the conversation, and any specific instructions or constraints.</p>
 <p>An essential mechanism that enables this contextual understanding is the &ldquo;attention&rdquo; mechanism. In transformer architectures, attention allows the model to weigh different parts of the input text differently. This means that when generating a response, the model doesn&rsquo;t treat all words or tokens in the context equally. Instead, it &ldquo;attends&rdquo; more to certain parts that are more relevant to the query or prompt at hand. For example, if the conversation is about climate change, words like &ldquo;emissions,&rdquo; &ldquo;carbon,&rdquo; and &ldquo;temperature&rdquo; might receive higher attention weights. This attention mechanism works in tandem with the context to produce more accurate and contextually appropriate responses.</p>
 <p>However, the understanding of context in LLMs extends beyond just the immediate preceding text. Given the vast datasets these models are trained on, they possess a comprehensive understanding of a multitude of topics. When presented with a specific context, the model delves into this extensive knowledge base, honing in on the relevant segments to craft an appropriate response.</p>
-<h3 id="31-context-as-ad-hoc-training">3.1 Context as Ad Hoc Training</h3>
+<h3 id="21-context-as-ad-hoc-training">2.1 Context as Ad Hoc Training</h3>
 <p>The proposition of utilizing context as a form of ad hoc training presents a novel approach to interacting with LLMs. Howard and Ruder introduced the idea of fine-tuning pre-trained models for specific tasks, which is somewhat related to the idea of ad hoc training [17].</p>
 <p>By furnishing an LLM with a distinct context or a set of instructions, users have the capability to &ldquo;guide&rdquo; the model&rsquo;s responses in real-time. This method of providing contextual guidance effectively acts as instantaneous training, molding the model&rsquo;s behavior without necessitating alterations to its foundational architecture or weights.</p>
 <p>In our exploration of the role of context in language models, we present two contrasting figures to highlight the difference that context can make in the responses generated by a chatbot.</p>
@@ -122,7 +127,7 @@ Fig 2. ChatPDF enables a chat conversation with the contents of a document. In t
 <p><em>On the other hand, Fig. 4 shows the same chatbot, but this time it is provided with context in the form of a text snippet from the Wikipedia page about the 2023 FIFA Women&rsquo;s World Cup. When asked the same question, the chatbot is able to generate a detailed response, discussing the sports event, the results, participating countries, and individuals involved, as if it had been specifically trained on that information.</em></p>
 <p><img src="pages/open_courseware/en/img3.png" alt="">
 <em><strong>Fig. 4:</strong> A screenshot of the same chatbot interaction, but this time the chatbot is provided with a text snippet from the Wikipedia page about the 2023 FIFA Women&rsquo;s World Cup. When asked the same question, the chatbot generates a detailed response, discussing the sports event, the results, participating countries, and individuals involved, showcasing the power of contextual information.</em></p>
-<p>3.2 Self-Referential Context and Programmability in LLMs**_</p>
+<h2 id="3-self-referential-context-and-programmability-in-llms_">3 Self-Referential Context and Programmability in LLMs**_</h2>
 <p><em>An often-overlooked aspect of context in LLMs is the self-referential nature of their responses. As an LLM generates a response, that output becomes part of the ongoing context for subsequent interactions. This dynamic feature enables a unique form of programmability and direction-following in LLMs.</em></p>
 <p><em>One aspect of context in advanced Language Learning Models (LLMs) like GPT-4 and GPT-3.5 that warrants closer attention is the self-referential nature of their generated responses. While earlier models in the GPT series have some ability to use context within a single interaction, this capability has been significantly enhanced in more recent versions. Advanced LLMs can incorporate their own generated text into the context for future interactions as represented in Fig 5., meaning that as the model generates a response, that newly generated content doesn&rsquo;t just serve as an answer to a query; it also becomes part of the evolving context that informs subsequent responses.</em></p>
 <p><img src="pages/open_courseware/en/img4.png" alt="">
@@ -225,7 +230,7 @@ Fig 2. ChatPDF enables a chat conversation with the contents of a document. In t
 </span></span></span><span style="display:flex;"><span><span style="color:#2aa198">&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>response <span style="color:#719e07">=</span> get_completion(prompt)
 </span></span><span style="display:flex;"><span><span style="color:#b58900">print</span>(response)
-</span></span></code></pre></div><h3 id="24-the-evolution-of-contextual-understanding-the-system-message">2.4. The Evolution of Contextual Understanding: The System Message.</h3>
+</span></span></code></pre></div><p>4 The Evolution of Contextual Understanding: The System Message.</p>
 <p>In March 2023, OpenAI introduced a groundbreaking feature in the API of their GPT 3.5 and GPT 4 models: the &ldquo;system message&rdquo; [18]. Prior to this update, the API allowed for the model to receive prompts and context through an array of messages categorized as either &ldquo;user&rdquo; (messages prompted by the user) or &ldquo;agent&rdquo; (previous responses generated by the model). The system message, however, is designed to be the first message in this array.</p>
 <p>The system message serves a critical function: it outlines the role and behavioral parameters expected of the LLM. This allows for a more nuanced and directed interaction with the model, as it provides the LLM with guidelines on how to respond to subsequent prompts.</p>
 <p>The introduction of the system message significantly enhances the user&rsquo;s ability to guide the model&rsquo;s behavior in real-time, effectively serving as an extension of the ad hoc training concept discussed earlier. It offers users a more refined tool for customizing the model&rsquo;s responses, thereby elevating the level of interaction to a more dynamic and tailored experience.</p>
