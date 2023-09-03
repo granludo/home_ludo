@@ -7,7 +7,61 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 16 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGTP</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/chatgtp/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/chatgtp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Course</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/course/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/education/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/english/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LLM</title>
+      <link>https://wasabi.essi.upc.edu/ludo/tags/llm/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/tags/llm/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Català</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/</link>
@@ -36,15 +90,6 @@
     </item>
     
     <item>
-      <title>IA</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/ia/</link>
-      <pubDate>Wed, 02 Aug 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/ia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Enigma</title>
       <link>https://wasabi.essi.upc.edu/ludo/tags/enigma/</link>
       <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
@@ -59,15 +104,6 @@
       <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/hist%C3%B2ria-de-linform%C3%A0tica/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/english/</link>
-      <pubDate>Mon, 17 Jul 2023 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/english/</guid>
       <description></description>
     </item>
     
@@ -212,15 +248,6 @@
       <pubDate>Mon, 17 Feb 2020 02:01:58 +0530</pubDate>
       
       <guid>https://wasabi.essi.upc.edu/ludo/tags/conversation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>https://wasabi.essi.upc.edu/ludo/tags/education/</link>
-      <pubDate>Mon, 17 Feb 2020 02:01:58 +0530</pubDate>
-      
-      <guid>https://wasabi.essi.upc.edu/ludo/tags/education/</guid>
       <description></description>
     </item>
     

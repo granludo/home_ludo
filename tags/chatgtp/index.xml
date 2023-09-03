@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ChatGTP on Marc Alier (Ludo) - Home Page </title>
+    <link>https://wasabi.essi.upc.edu/ludo/tags/chatgtp/</link>
+    <description>Recent content in ChatGTP on Marc Alier (Ludo) - Home Page </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Fri, 01 Sep 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/chatgtp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT: the good the bad and the Hallucinated</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/good_bad_alucinated/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/good_bad_alucinated/</guid>
+      <description>Table Of Contents Dealing with Hallucinations What Are Hallucinations? Why They Occur Mitigation Strategies Risk-Adjusted Verification Practical strategies and use cases of Chatbots like ChatGTP Language Considerations: for best results, use English Putting Context i context.</description>
+    </item>
+    
+  </channel>
+</rss>
