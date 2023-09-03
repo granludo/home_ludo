@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Embeddings, Context uses and Self Referencing in LLMS - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Embeddings, Context uses and Self Referencing in LLMS" />
+<meta property="og:description" content="Table Of Contents Dealing with Hallucinations What Are Hallucinations? Why They Occur Mitigation Strategies Risk-Adjusted Verification Practical strategies and use cases of Chatbots like ChatGTP Language Considerations: for best results, use English Putting Context i context." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/posts/good_bad_alucinated/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-01T02:01:58+05:30" />
+<meta property="article:modified_time" content="2023-09-01T02:01:58+05:30" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Embeddings, Context uses and Self Referencing in LLMS"/>
+<meta name="twitter:description" content="Table Of Contents Dealing with Hallucinations What Are Hallucinations? Why They Occur Mitigation Strategies Risk-Adjusted Verification Practical strategies and use cases of Chatbots like ChatGTP Language Considerations: for best results, use English Putting Context i context."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/main.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/abc.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://wasabi.essi.upc.edu/ludo/">
+	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
+	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
+			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a><a href="https://wasabi.essi.upc.edu/ludo/index.xml" title="RSS"><i data-feather="cast"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/ludo/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/about">About me</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/cursos">Cursos</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/eines_ia">Eines IA</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/castellano">Castellano</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/catal%C3%A0">Català</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/english">English</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Embeddings, Context uses and Self Referencing in LLMS</h1>
+			<div class="meta">Posted at &mdash; Sep 1, 2023</div>
+		</div>
+
+		<div class="markdown">
+			<div>
+    <h2>Table Of Contents</h2>
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#dealing-with-hallucinations"><strong>Dealing with Hallucinations</strong></a></li>
+        <li><a href="#what-are-hallucinations">What Are Hallucinations?</a></li>
+        <li><a href="#why-they-occur">Why They Occur</a></li>
+        <li><a href="#mitigation-strategies">Mitigation Strategies</a></li>
+        <li><a href="#risk-adjusted-verification"><strong>Risk-Adjusted Verification</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#practical-strategies-and-use-cases-of-chatbots-like-chatgtp">Practical strategies and use cases of Chatbots like ChatGTP</a>
+      <ul>
+        <li><a href="#language-considerations-for-best-results-use-english"><strong>Language Considerations: for best results, use English</strong></a></li>
+      </ul>
+    </li>
+    <li><a href="#putting-context-i-context">Putting Context i context.</a></li>
+    <li><a href="#text-formatting-a-neat-trick-in-llm-conversations">Text Formatting: a neat trick in LLM Conversations</a>
+      <ul>
+        <li><a href="#use-text-formats-like-a-ninja"><strong>Use text formats like a ninja</strong></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div>
+
+<h1 id="chatgpt-the-good-the-bad-and-the-hallucinated"><strong>ChatGPT: The Good, The Bad, and The Hallucinated</strong></h1>
+<p>Large Language Models (LLMs) like ChatGPT are a new family of technologies that offer a lot of potential but also come with their own set of challenges. We&rsquo;re using these AI tools more and more for everything from simple questions to generating complex code. So, it&rsquo;s important to ask: Do we really understand how to get the best out of them?</p>
+<p>In this blog post, we&rsquo;ll go over some key best practices for using LLMs. We&rsquo;ll look at the difference between AI-generated content and information from databases or search engines. We&rsquo;ll also talk about the issue of &ldquo;hallucinations,&rdquo; where the model gives you incorrect or misleading information. And we&rsquo;ll cover why the language you use to ask questions matters for the quality of the answers you get.</p>
+<p>Whether you&rsquo;re just curious or planning to integrate LLMs into your projects, this guide aims to help you use these tools more effectively.</p>
+<h1 id="understanding-the-source-of-content-generated-by-your-chatbot"><strong>Understanding the Source of Content generated by your chatbot</strong></h1>
+<p><strong>AI-Generated Content</strong></p>
+<p>When you ask a question to a Large Language Model like ChatGPT, it generates an answer based on a huge dataset it was trained on. This dataset includes a wide variety of sources, such as websites, books, and articles. But it&rsquo;s important to know that these models can&rsquo;t access real-time or updated information. What you get is based on what the model has learned up to a certain point in time.</p>
+<p>Additionally, it&rsquo;s worth noting that the information, while often accurate, is generated in a stochastic or random manner. This means that the possibility of failure or error is always part of the equation. It&rsquo;s like a secret sauce that can sometimes add flavor but other times spoil the dish.</p>
+<p><strong>Search Engine or Database Content</strong></p>
+<p>In contrast to AI-generated content, information from search engines, databases, or specialized systems like Wolfram Alpha comes from real-time, factual sources. These platforms often provide peer-reviewed or verified information. Unlike Large Language Models, they can give you the most current data available, whether it&rsquo;s the latest news, scientific research, or statistical data.</p>
+<p><strong>Implications</strong></p>
+<p>Understanding the difference between these two types of content is crucial. If you&rsquo;re looking for up-to-date or highly factual information, relying solely on a Large Language Model might not be your best bet. While these models are incredibly versatile and can provide quick answers, they can&rsquo;t replace the depth and reliability of information you&rsquo;d get from a specialized database or search engine. However, it&rsquo;s worth noting that accessing these specialized sources often requires technical skills, like understanding specific user interfaces or programming languages. In contrast, Large Language Models offer the convenience of obtaining information through simple, natural language queries. Knowing when to use each can help you get the most accurate and reliable information, while also considering the ease of access.</p>
+<h3 id="dealing-with-hallucinations"><strong>Dealing with Hallucinations</strong></h3>
+<h3 id="what-are-hallucinations">What Are Hallucinations?</h3>
+<p>In the context of Large Language Models (LLMs) like ChatGPT, hallucinations refer to the generation of inaccurate, exaggerated, or completely false information. For example, ChatGPT has been known to invent plausible-sounding answers backed with fake citations, leading users to double-check whether they had accidentally stumbled upon a real phenomenon. In some cases, it has even fabricated financial numbers in news articles or generated fake case precedents in legal briefs.</p>
+<h3 id="why-they-occur">Why They Occur</h3>
+<p>Hallucinations often occur due to limitations in the training data or the model&rsquo;s understanding of context. The model doesn&rsquo;t have the ability to verify the information it generates; it simply produces responses based on patterns in the data it was trained on. This stochastic nature of LLMs means that randomness and the possibility of absolute failure are always part of the equation.</p>
+<h3 id="mitigation-strategies">Mitigation Strategies</h3>
+<ol>
+<li><strong>Awareness of Potential Fabrication</strong>: The first step is to be aware that LLMs can generate made-up content. This awareness can make you more critical of the answers you receive.</li>
+<li><strong>Assess Your Own Expertise</strong>: Your ability to judge the quality of the information is tied to your level of expertise on the topic. If you&rsquo;re knowledgeable in a subject, you&rsquo;re better equipped to spot inaccuracies.</li>
+<li><strong>Critical Evaluation and Validation Strategy</strong>: Always critically evaluate the information. Have a strategy for validation that could involve cross-referencing with reliable sources or consulting experts. If something seems too complex or too good to be true, it likely needs further verification.</li>
+<li><strong>Test Against Reliable Sources</strong>: When unsure, test the information against trusted platforms like search engines or Wikipedia. For generated code, always run and test it to ensure it performs as expected.</li>
+<li><strong>Human Review</strong>: In high-stakes areas like legal filings, human review is increasingly necessary. Some jurisdictions even require it to ensure the reliability of AI-generated content.</li>
+</ol>
+<h3 id="risk-adjusted-verification"><strong>Risk-Adjusted Verification</strong></h3>
+<p>The steps for verifying information should be proportional to the risks and implications of using it. For critical applications like generated code, extensive testing and expert review are essential. For general knowledge questions, a quick cross-reference with a reliable source may suffice.</p>
+<p>By being mindful of the stakes, you can tailor your verification process to take appropriate precautions. This balanced approach allows you to make the most of what Large Language Models offer, while also safeguarding against their limitations and risks.</p>
+<h2 id="practical-strategies-and-use-cases-of-chatbots-like-chatgtp">Practical strategies and use cases of Chatbots like ChatGTP</h2>
+<h3 id="language-considerations-for-best-results-use-english"><strong>Language Considerations: for best results, use English</strong></h3>
+<p>Large Language Models like ChatGPT can understand and generate text in multiple languages. However, for best results, use English. A significant portion of their training data is in English, making their responses in this language more nuanced and accurate. This is especially important for non-English native speakers.</p>
+<p>If you need non-English content, a useful strategy for is to first prompt the model in English to get the most accurate response. Once you have that, you can then ask ChatGPT to translate the answer into your desired language. This two-step process often yields more reliable results than directly prompting in a non-English language.</p>
+<h2 id="putting-context-i-context">Putting Context i context.</h2>
+<p>When you&rsquo;re chatting with ChatGPT, the context includes all the previous conversation you&rsquo;ve had—both your prompts and the chatbot&rsquo;s responses. Context is the information that helps the model understand what you&rsquo;re asking. In Large Language Models like ChatGPT, this context is not just limited to your current query. It also encompasses the entire conversation history, the specific way you phrase your questions, and even the model&rsquo;s own previous responses. Because the model pays attention to this broader context along with your current prompt and its own training data, it can provide more nuanced and accurate answers. This means that the model not only understands your immediate question but also considers the broader conversation to generate a more context-aware response.</p>
+<p><strong>Example 1: Recipe and Shopping List</strong></p>
+<ul>
+<li><strong>Your Prompt</strong>: &ldquo;Can you give me a recipe for chocolate chip cookies?&rdquo;</li>
+<li><strong>ChatGPT&rsquo;s Response</strong>: &ldquo;Sure, here&rsquo;s a simple recipe for chocolate chip cookies&hellip;&rdquo;</li>
+<li><strong>Your Follow-up Prompt</strong>: &ldquo;Great, can you now create a shopping list based on that recipe?&rdquo;</li>
+<li><strong>ChatGPT&rsquo;s Follow-up Response</strong>: &ldquo;Of course, based on the chocolate chip cookie recipe, you&rsquo;ll need&hellip;&rdquo;</li>
+</ul>
+<p>In this example, ChatGPT uses its own generated recipe as context for creating a relevant shopping list. This shows how the model&rsquo;s previous output informs its next action, making the interaction more fluid and personalized.</p>
+<p><strong>Example 2: Educational Assessment</strong></p>
+<ul>
+<li><strong>Your Prompt</strong>: We are going to do the assessment of students&rsquo; exercises. The problem to solve is: <em><strong>x + 4 = 7</strong></em> The proper response is <em><strong>x = 7 - 4</strong></em> <em><strong>x = 3</strong></em> Now I will produce several responses from students. You compare the student&rsquo;s solution to the proposed solution, then say: A) whether the response is correct or not, B) if it&rsquo;s not correct, explain where the student went wrong and how to go about fixing it. Do not produce the correct answer, just give orientation to the student. Now just say OK.</li>
+<li><strong>ChatGPT&rsquo;s Response</strong>: &ldquo;OK&rdquo;</li>
+</ul>
+<p>In this example, you&rsquo;ve set up a context for ChatGPT to evaluate student responses against a given correct solution. The model will use this context to provide targeted feedback, helping students understand where they might have gone wrong without giving away the correct answer. This is a practical application of how understanding context can lead to more effective educational interactions.</p>
+<ul>
+<li><strong>Your Follow-up Prompt 1</strong>: Student 1&rsquo;s response is: <em><strong>x = 7 + 4</strong></em> <em><strong>x = 11</strong></em></li>
+<li><strong>ChatGPT&rsquo;s Follow-up Response 1</strong>: A) The response is incorrect. B) The student added 4 instead of subtracting it. To correct this, the student should start by isolating x_x_on one side of the equation by performing the opposite operation on both sides.</li>
+<li><strong>Your Follow-up Prompt 2</strong>: Student 2&rsquo;s response is: <em><strong>x = 7 / 4</strong></em> <em><strong>x = 1.75</strong></em></li>
+<li><strong>ChatGPT&rsquo;s Follow-up Response 2</strong>: A) The response is incorrect. B) The student divided by 4 instead of subtracting it. The student should focus on isolating x_x_by using the correct inverse operation.</li>
+<li><strong>Your Follow-up Prompt 3</strong>: Student 3&rsquo;s response is: <em><strong>x = 7 - 4</strong></em> <em><strong>x = 3</strong></em></li>
+<li><strong>ChatGPT&rsquo;s Follow-up Response 3</strong>: A) The response is correct. B) The student correctly isolated x_x_by subtracting 4 from both sides of the equation.</li>
+</ul>
+<p>In this extended example, ChatGPT uses the context provided—the correct solution to the equation x+4=7_x_+4=7—to evaluate the students&rsquo; responses. It then provides targeted feedback based on how each student&rsquo;s answer compares to the correct solution. This demonstrates the model&rsquo;s ability to use context for more nuanced and helpful interactions.</p>
+<p><strong>Missing the context is missing the point</strong></p>
+<p>Understanding context in your chats with Large Language Models like ChatGPT is crucial. It makes your exchanges more accurate and nuanced. Context helps the model understand the topic, tone, and your specific needs better. This is key for avoiding errors, especially in professional or educational settings. It also allows for more complex interactions, like detailed discussions or using the model for teaching, as shown in our examples.</p>
+<p><img src="https://wasabi.essi.upc.edu/ludo/IMGS/prompts_session.png" alt=""></p>
+<p>Source: <a href="https://sparktoro.com/blog/we-analyzed-millions-of-chatgpt-user-sessions-visits-are-down-29-since-may-programming-assistance-is-30-of-use/?utm_source=tldrnewsletter**.%5D">Fishkin, Rand. &ldquo;We Analyzed Millions of ChatGPT User Sessions: Visits are Down 29% since May, Programming Assistance is 30% of Use.&rdquo; SparkToro. Accessed September 3, 2023. **[https://sparktoro.com/blog/we-analyzed-millions-of-chatgpt-user-sessions-visits-are-down-29-since-may-programming-assistance-is-30-of-use/?utm_source=tldrnewsletter**.]</a> (<a href="https://sparktoro.com/blog/we-analyzed-millions-of-chatgpt-user-sessions-visits-are-down-29-since-may-programming-assistance-is-30-of-use/?utm_source=tldrnewsletter">https://sparktoro.com/blog/we-analyzed-millions-of-chatgpt-user-sessions-visits-are-down-29-since-may-programming-assistance-is-30-of-use/?utm_source=tldrnewsletter</a>)</p>
+<p>Interestingly, research shows (see figure) that almost half of ChatGPT sessions consist of just one (34.5%) or two (14.5%) prompts. This suggests that a large number of users are not fully utilizing the context-aware capabilities of these models. Only about 35% of sessions have five or more prompts. By not engaging in longer conversations, users miss out on the benefits of context, such as more accurate and nuanced responses, especially in complex queries or discussions.</p>
+<p>When interacting with ChatGPT, the way you format your text isn&rsquo;t just a matter of aesthetics or readability; it also impacts semantics, the meaning behind your words. Proper text formatting acts as a guide for the model, helping it better understand the structure and intent of your query. This, in turn, allows the model to generate responses that are more precise, organized, and tailored to what you&rsquo;re actually asking for.</p>
+<h2 id="text-formatting-a-neat-trick-in-llm-conversations">Text Formatting: a neat trick in LLM Conversations</h2>
+<p>When interacting with ChatGPT, the way you format your text isn&rsquo;t just a matter of aesthetics or readability; it also impacts semantics, the meaning behind words. Proper text formatting acts as a guide for the model, helping it better understand the structure and intent of your query. This, in turn, allows the model to generate responses that are more precise, organized, and tailored to what you&rsquo;re actually asking for.</p>
+<p><strong>Example 3: Using Bullet Points for Multiple Questions</strong></p>
+<ul>
+<li>
+<p>Your prompt:</p>
+<p>&ldquo;Tell me about the benefits of:</p>
+<ul>
+<li>Solar energy</li>
+<li>Wind energy&rdquo;</li>
+</ul>
+</li>
+<li>
+<p>ChatGPT&rsquo;s response:</p>
+<p>&ldquo;Certainly!</p>
+<ul>
+<li>Solar energy is renewable, reduces electricity bills, and has low operating costs.</li>
+<li>Wind energy is also renewable, cost-effective, and can be built on existing farms.&rdquo;</li>
+</ul>
+</li>
+</ul>
+<p>In this example, the use of bullet points in the prompt helps to clearly separate multiple questions, making it easier for ChatGPT to address each one individually.</p>
+<h3 id="use-text-formats-like-a-ninja"><strong>Use text formats like a ninja</strong></h3>
+<p>Beyond the basics of bullet points and numbered lists, you can take advantage of more specialized text formats commonly used in computing to enhance your interactions with ChatGPT. Formats like CSV (Comma-Separated Values), JSON (JavaScript Object Notation), and XML (eXtensible Markup Language) can be employed in your prompts. These formats are particularly useful when you&rsquo;re dealing with data-heavy queries or need the model to generate responses that can be easily integrated into other software or databases.</p>
+<p>For instance, if you have data in an Excel file that you&rsquo;d like to analyze, you can export it as a CSV and then use that CSV-formatted data in your prompt to ChatGPT. This makes it easier for the model to understand your query and improves the accuracy of its responses. You can even ask ChatGTP : “How do I export data in EXCEL to a CSV File”.</p>
+<p><strong>Example 4:</strong></p>
+<p><strong>Your prompt:</strong></p>
+<p>&ldquo;Sort the following table by Age in ascending order. The table is in CSV format:</p>
+<p>Name,Age,Occupation Alice,34,Engineer Bob,29,Doctor Charlie,45,Teacher David,39,Lawyer Ella,28,Artist</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&#34;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**ChatGPT&#39;s response:**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&#34;Here&#39;s the sorted table by Age in ascending order:
+</span></span></code></pre></div><p>Name,Age,Occupation Ella,28,Artist Bob,29,Doctor Alice,34,Engineer David,39,Lawyer Charlie,45,Teacher</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>&#34;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**A note about Markdown**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ChatGPT understands Markdown text formatting, which allows it to display code snippets, tables, headers, links, and even embedded images in its output. However, if you&#39;re using a Markdown-enabled editor for your documents—like Obsidian or Notion—you should be cautious with certain Markdown codes that could disrupt your presentation:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Triple backticks (&#34;```&#34;): These are used for code blocks in Markdown. If you&#39;re not careful, they can mess up the formatting in your Markdown editor.
+</span></span><span style="display:flex;"><span>Triple dashes (&#34;---&#34;): These are often used for horizontal lines, which could unintentionally divide your text.
+</span></span><span style="display:flex;"><span>Hash symbols (&#34;#&#34;, &#34;##&#34;, &#34;###&#34;): These are used for headers. Make sure you use them intentionally to structure your document.
+</span></span><span style="display:flex;"><span>Asterisks (&#34;*&#34;): These are used for bullet points. Make sure they are aligned properly to maintain the list structure.
+</span></span><span style="display:flex;"><span>Tables: Markdown tables can be useful but also tricky. Ensure the columns align correctly for readability.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**Using Markdown in ChatGPT output**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Lets go back to the last example, we can ask chatgpt to output the results in a markdown table:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Your prompt:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&#34;Sort the following table by Age in ascending order. Format the result **in Markdown**. The table is in CSV format:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Name,Age,Occupation
+</span></span><span style="display:flex;"><span>Alice,34,Engineer
+</span></span><span style="display:flex;"><span>Bob,29,Doctor
+</span></span><span style="display:flex;"><span>Charlie,45,Teacher
+</span></span><span style="display:flex;"><span>David,39,Lawyer
+</span></span><span style="display:flex;"><span>Ella,28,Artist&#34;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>ChatGPT&#39;s response:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&#34;Here&#39;s the sorted table by Age in ascending order, formatted in Markdown:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>| Name | Age | Occupation |
+</span></span><span style="display:flex;"><span>| --- | --- | --- |
+</span></span><span style="display:flex;"><span>| Ella | 28 | Artist |
+</span></span><span style="display:flex;"><span>| Bob | 29 | Doctor |
+</span></span><span style="display:flex;"><span>| Alice | 34 | Engineer |
+</span></span><span style="display:flex;"><span>| David | 39 | Lawyer |
+</span></span><span style="display:flex;"><span>| Charlie | 45 | Teacher |
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>¨
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>This way, you get the sorted data in a Markdown table, which you can directly include in your Markdown documents. On the chatGPT page you will see the table above, but if you copy and paste it to a plain text editor you will get something like:
+</span></span></code></pre></div><table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+<th>Occupation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ella</td>
+<td>28</td>
+<td>Artist</td>
+</tr>
+<tr>
+<td>Bob</td>
+<td>29</td>
+<td>Doctor</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>34</td>
+<td>Engineer</td>
+</tr>
+<tr>
+<td>David</td>
+<td>39</td>
+<td>Lawyer</td>
+</tr>
+<tr>
+<td>Charlie</td>
+<td>45</td>
+<td>Teacher</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Which is a Markdown representation of a table. 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Other uses of text formats and chatbots. 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**Example: Getting ChatGPT to Work with Graphs**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**Your prompt:**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> &#34;Is there any text-based language that can be used to represent graphs?&#34;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**ChatGPT Response:**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&#34;Yes, there are several text-based languages and formats that can be used to represent graphs. These languages are often used in conjunction with graph visualization or analysis software. Here are some of them:
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>- DOT Language: The DOT language is a plain text graph description language that is widely used as part of the Graphviz project. It is straightforward and allows for describing graphs, digraphs, and their attributes.
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>Example:
+</span></span></code></pre></div><p>dotCopy code digraph G { A -&gt; B; B -&gt; C; C -&gt; A; }</p>
+<div class="highlight"><pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>(… response continues with several formats : YAML, GML, JSON GRAPH… )
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>“
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**Your Follow-Up Response:**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> &#34;Generate a .dot file representing a sample graph with the 10 most populated cities in Europe, their high-speed train connections, and the number of kilometers for each direct connection.&#34;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>**ChatGPT Response:**
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> &#34;Here is a sample .dot file representing a graph of the 10 most populated cities in Europe, along with their high-speed train connections and the distances between them.&#34;
+</span></span></code></pre></div><p>`digraph EuropeCities { &ldquo;London&rdquo; -&gt; &ldquo;Paris&rdquo; [label=&ldquo;450 km&rdquo;]; &ldquo;Paris&rdquo; -&gt; &ldquo;Madrid&rdquo; [label=&ldquo;1,050 km&rdquo;]; &ldquo;Madrid&rdquo; -&gt; &ldquo;Rome&rdquo; [label=&ldquo;1,400 km&rdquo;]; &ldquo;Rome&rdquo; -&gt; &ldquo;Berlin&rdquo; [label=&ldquo;1,100 km&rdquo;]; &ldquo;Berlin&rdquo; -&gt; &ldquo;Moscow&rdquo; [label=&ldquo;1,800 km&rdquo;]; &ldquo;Moscow&rdquo; -&gt; &ldquo;Saint Petersburg&rdquo; [label=&ldquo;700 km&rdquo;]; &ldquo;Saint Petersburg&rdquo; -&gt; &ldquo;Kiev&rdquo; [label=&ldquo;1,100 km&rdquo;]; &ldquo;Kiev&rdquo; -&gt; &ldquo;Istanbul&rdquo; [label=&ldquo;1,300 km&rdquo;]; &ldquo;Istanbul&rdquo; -&gt; &ldquo;Bucharest&rdquo; [label=&ldquo;600 km&rdquo;]; &ldquo;Bucharest&rdquo; -&gt; &ldquo;Berlin&rdquo; [label=&ldquo;1,400 km&rdquo;]; &ldquo;London&rdquo; -&gt; &ldquo;Berlin&rdquo; [label=&ldquo;1,100 km&rdquo;]; &ldquo;Paris&rdquo; -&gt; &ldquo;Berlin&rdquo; [label=&ldquo;1,050 km&rdquo;]; &ldquo;Paris&rdquo; -&gt; &ldquo;Rome&rdquo; [label=&ldquo;1,100 km&rdquo;]; &ldquo;Madrid&rdquo; -&gt; &ldquo;Berlin&rdquo; [label=&ldquo;1,900 km&rdquo;]; &ldquo;Berlin&rdquo; -&gt; &ldquo;Kiev&rdquo; [label=&ldquo;1,300 km&rdquo;]; &ldquo;Moscow&rdquo; -&gt; &ldquo;Kiev&rdquo; [label=&ldquo;870 km&rdquo;]; &ldquo;Kiev&rdquo; -&gt; &ldquo;Bucharest&rdquo; [label=&ldquo;800 km&rdquo;]; &ldquo;Istanbul&rdquo; -&gt; &ldquo;Moscow&rdquo; [label=&ldquo;2,200 km&rdquo;]; &ldquo;Rome&rdquo; -&gt; &ldquo;Madrid&rdquo; [label=&ldquo;1,400 km&rdquo;]; &ldquo;Rome&rdquo; -&gt; &ldquo;Paris&rdquo; [label=&ldquo;1,100 km&rdquo;]; }```</p>
+<p>Now you can do things like asking ChatGPT to find the optimal path from Madrid to Saint Petersburg and highlight such path on the .dot code. I got GPT-4 to create the code for this graph in two extra prompts. Interestingly GPT-4 used the Dijstra algorithm to solve the problem. I will give you the resulting image and leave it as a challenge.</p>
+<p><img src="https://wasabi.essi.upc.edu/ludo/IMGS/graph.png" alt="">
+If you need to know how to generate the image from the .dot code&hellip; just ask ChatGPT.</p>
+<h1 id="last-prompts">Last prompts</h1>
+<p>According to research, more than 23% of the use of ChatGPT is related to education. Both teachers and students are using ChatGPT, and the new advanced AI chatbots that are coming online (such as Google&rsquo;s Bard, Open Assistant, Meta&rsquo;s Llama 2, etc.) are finding good use cases to assist them in their daily tasks of teaching and learning. A good understanding of these tools, their capabilities, and limitations is crucial for responsible and ethical use, especially in educational settings</p>
+<p>In addition to everything covered so far in this article, there are a few final points worth considering:</p>
+<ul>
+<li>Tools like ChatGPT are here to stay; they are neither a fad nor a passing trend. They represent a new era of internet and software technology, and their impact will be monumental. To draw a comparison with web technologies, we&rsquo;re currently in the equivalent of the late &rsquo;90s, tinkering with static web pages. The technology is set to improve exponentially over the next five years, and its impact on our lives will be as transformative as the combined effects of PCs, the internet, and smartphones.</li>
+<li>The sophisticated use of ChatGPT and other Large Language Models (LLMs) is becoming increasingly difficult to detect. Current research suggests that it&rsquo;s unlikely we&rsquo;ll develop a reliable &lsquo;AI-generated content&rsquo; detector anytime soon. Those claiming to offer such tools are essentially selling snake oil.</li>
+<li>As of June 2023, ChatGPT has introduced a useful feature: the ability to share a permalink to a conversation. This is incredibly valuable as it allows us to showcase the work done with the chatbot to produce specific content. For instance, this very document was developed using ChatGPT in a conversation that spanned several hours. I&rsquo;m providing the link as a showcase of how effectively a chatbot can be used to produce quality work. Or at least as good a quality as this article.</li>
+</ul>
+<p>Thank you for reading to the end.</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-R81B664LFS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

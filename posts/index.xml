@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Thu, 31 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Sep 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Embeddings, Context uses and Self Referencing in LLMS</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/good_bad_alucinated/</link>
+      <pubDate>Fri, 01 Sep 2023 02:01:58 +0530</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/good_bad_alucinated/</guid>
+      <description>Table Of Contents Dealing with Hallucinations What Are Hallucinations? Why They Occur Mitigation Strategies Risk-Adjusted Verification Practical strategies and use cases of Chatbots like ChatGTP Language Considerations: for best results, use English Putting Context i context.</description>
+    </item>
+    
     <item>
       <title>Embeddings, Context uses and Self Referencing in LLMS</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/embeddings/</link>
