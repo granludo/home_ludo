@@ -226,6 +226,9 @@
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/pasted/</loc>
   </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/office_hours/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/courses_en/</loc>
