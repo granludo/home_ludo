@@ -127,10 +127,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_es/#licencia-creative-commonshttpsicreativecommonsorglby-nc-sa4088x31png"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Licencia Creative Commons"></a></li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_es/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

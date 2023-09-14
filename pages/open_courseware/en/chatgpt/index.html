@@ -186,21 +186,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#future-shock">Future Shock</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#prompts-and-interactions-with-chatgpt-used-in-this-video">Prompts and interactions with ChatGpt used in this video</a></li>
-      </ul>
-    </li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#2-llm-basics">2. LLM Basics</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#3--training-chatgpt">3.  Training ChatGPT</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#prompts-and-interactions-with-chatgpt-used-in-this-video-1">Prompts and interactions with ChatGpt used in this video</a></li>
-      </ul>
-    </li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/#4-learning-howto-better-craft-prompts">4 Learning howto better craft prompts</a></li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/chatgpt/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

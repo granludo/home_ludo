@@ -219,21 +219,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#introducció">Introducció</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#6-casos-dus-de-chatgpt-i">6. Casos d’us de ChatGPT (I)</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#7-guerres-de-tonner">7. Guerres de Tonner</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#8-chatgpt-dins-laula">8. ChatGPT dins l’aula</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#9-casos-dus-de-chatgpt-i-ii">9. Casos d&rsquo;us de ChatGPT i II</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/#video-10-el-salt-de-gpt-35-a-gpt-4">Video 10. El salt de GPT 3.5 a GPT 4</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/chatgpt_cat_v1/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

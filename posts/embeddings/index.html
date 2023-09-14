@@ -323,21 +323,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#1-embeddings">1 Embeddings</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#12-practical-applications-of-embeddings">1.2 Practical Applications of Embeddings</a></li>
-      </ul>
-    </li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#2-the-context-in-llms-based-on-transformers">2 The context in LLMs based on transformers**</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#21-context-as-ad-hoc-training">2.1 Context as Ad Hoc Training</a></li>
-      </ul>
-    </li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#3-self-referential-context-and-programmability-in-llms_">3 Self-Referential Context and Programmability in LLMs**_</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/posts/embeddings/#references"><strong>References</strong></a></li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/posts/embeddings/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

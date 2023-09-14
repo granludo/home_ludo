@@ -140,20 +140,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/#openai-guides-and-resources">OpenAi Guides and resources</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/#software-industry-and-ai">Software industry and AI</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/#useful-or-interesting-models">Useful or interesting Models</a>
-      <ul>
-        <li><a href="https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/#huggingfaces-llama-implementation">Huggingface&rsquo;s Llama implementation</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/#magic-brush">Magic Brush</a></li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/wiki/research/links-ia/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

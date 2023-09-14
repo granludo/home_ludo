@@ -135,16 +135,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
-	<nav id="TableOfContents">
-  <ul>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#introducció">Introducció</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#correctors-ortogràfics-i-gramaticals">Correctors Ortogràfics i Gramaticals</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#producció-de-vídeo">Producció de Vídeo</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#qualitat-de-làudio">Qualitat de l&rsquo;Àudio</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#transcripció-i-traducció">Transcripció i Traducció</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#resum-i-anàlisi-de-contingut">Resum i Anàlisi de Contingut</a></li>
-    <li><a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/#conclusió">Conclusió</a></li>
-  </ul>
-</nav>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>
