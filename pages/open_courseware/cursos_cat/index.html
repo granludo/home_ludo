@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,7 +32,8 @@
 
 <body>
 	<div class="container wrapper post">
-		<div class="header">
+		
+<div class="header">
 	<base href="$.Site.BaseURL">
 	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
 	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
@@ -96,7 +98,7 @@
 			<h1 id="cursos-i-continguts-educatius">Cursos i continguts educatius</h1>
 <p>Creats per Marc Alier, Professor Agregat Universitat Politècnica de Catalunya</p>
 <ul>
-<li>*<a href="/pages/open_courseware/cat/chatgpt_cat_v1%7Cchatgpt_cat_v1">ChatGPT Oportunitat i Repte per a la Docencia</a></li>
+<li>*<a href="/ludo/pages/open_courseware/cat/chatgpt_cat_v1">ChatGPT Oportunitat i Repte per a la Docencia</a></li>
 </ul>
 <p><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" alt="Llicència Creative Commons"><br>
 Cursos subjectes a <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Llicència Creative Commons Reconeixement-NoComercial-CompartirIgual 4.0 Internacional</a>.</p>
@@ -127,5 +129,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cursos_cat/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>

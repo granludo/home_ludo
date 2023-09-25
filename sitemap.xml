@@ -226,6 +226,8 @@
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/pasted/</loc>
   </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</loc>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/office_hours/</loc>
     <priority>0</priority>
   </url><url>
@@ -242,5 +244,7 @@
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/</loc>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/ludo/</loc>
   </url>
 </urlset>
