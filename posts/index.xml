@@ -198,5 +198,14 @@ Els oceans són una esponja de carboni massiva, absorbint un quart de les emissi
       <description>Programar es una Mierda, es un podcast de referencia para hablar de programación con amor y humor. Creo que esta es la tercera participación en este programa en el que siempre hablamos de cosas interesantes.</description>
     </item>
     
+    <item>
+      <title>Avaluació ètica de models d&#39;IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</guid>
+      <description>L&amp;rsquo;article titulat &amp;ldquo;Evaluating social and ethical risks from generative AI&amp;rdquo; ha estat escrit per Google DeepMind. En aquest, es discuteix un marc proposat per avaluar els riscos ètics i socials associats amb l&amp;rsquo;ús de la Intel·ligència Artificial generativa, subratllant la importància del context en l&amp;rsquo;avaluació de la seguretat dels sistemes d&amp;rsquo;IA i suggerint una responsabilitat compartida entre diferents actors per garantir un desplegament responsable d&amp;rsquo;aquesta tecnologia.</description>
+    </item>
+    
   </channel>
 </rss>

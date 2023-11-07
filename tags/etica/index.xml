@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Etica on Marc Alier (Ludo) - Home Page </title>
+    <link>https://wasabi.essi.upc.edu/ludo/tags/etica/</link>
+    <description>Recent content in Etica on Marc Alier (Ludo) - Home Page </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/etica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Avaluació ètica de models d&#39;IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</guid>
+      <description>L&amp;rsquo;article titulat &amp;ldquo;Evaluating social and ethical risks from generative AI&amp;rdquo; ha estat escrit per Google DeepMind. En aquest, es discuteix un marc proposat per avaluar els riscos ètics i socials associats amb l&amp;rsquo;ús de la Intel·ligència Artificial generativa, subratllant la importància del context en l&amp;rsquo;avaluació de la seguretat dels sistemes d&amp;rsquo;IA i suggerint una responsabilitat compartida entre diferents actors per garantir un desplegament responsable d&amp;rsquo;aquesta tecnologia.</description>
+    </item>
+    
+  </channel>
+</rss>
