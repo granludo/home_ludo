@@ -93,148 +93,71 @@
 		</div>
 
 		<div class="markdown">
-			<div>
-    <h2>Table Of Contents</h2>
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#models-de-traducció-i-conversió-de-veu-i-text">Models de Traducció i Conversió de Veu i Text</a>
-      <ul>
-        <li><a href="#seamlessm4t-traducció-multilingüe">SeamlessM4T: Traducció Multilingüe</a></li>
-        <li><a href="#speech-gen-conversió-text-a-veu">Speech gen: Conversió Text a Veu</a></li>
-        <li><a href="#whisper-reconeixement-de-veu">Whisper: Reconeixement de Veu</a></li>
-        <li><a href="#whisper-ctranslate2-millora-de-whisper">Whisper-ctranslate2: Millora de Whisper</a></li>
-      </ul>
-    </li>
-    <li><a href="#processament-dimatges">Processament d&rsquo;Imatges</a>
-      <ul>
-        <li><a href="#segment-anything-segmentació-dobjectes">Segment-anything: Segmentació d&rsquo;Objectes</a></li>
-        <li><a href="#musica--extracció-dinstruments-i-veus-de-cançons">Musica , extracció d&rsquo;instruments i veus de cançons</a></li>
-        <li><a href="#generació-dimatges-creació-dimatges">Generació d&rsquo;Imatges: Creació d&rsquo;Imatges</a></li>
-      </ul>
-    </li>
-    <li><a href="#anàlisi-de-documents">Anàlisi de Documents</a>
-      <ul>
-        <li><a href="#mapdeduce-i-chatpdf-anàlisi-de-pdf">Mapdeduce i Chatpdf: Anàlisi de PDF</a></li>
-      </ul>
-    </li>
-    <li><a href="#disseny-de-logos">Disseny de Logos</a>
-      <ul>
-        <li><a href="#logomasterai-generació-de-logos">Logomaster.ai: Generació de Logos</a></li>
-      </ul>
-    </li>
-    <li><a href="#eines-de-desenvolupament">Eines de Desenvolupament</a>
-      <ul>
-        <li><a href="#ludwig-aprenentatge-automàtic-no-code">Ludwig: Aprenentatge Automàtic No Code</a></li>
-        <li><a href="#haystack---desenvolupament-usant-diversos-models-i-pipelines">Haystack -&gt; desenvolupament usant diversos models i pipelines</a></li>
-        <li><a href="#llm-patterns-avaluació-de-llms">LLM Patterns: Avaluació de LLMs</a></li>
-        <li><a href="#prompttools-eines-per-a-llms">PromptTools: Eines per a LLMs</a></li>
-      </ul>
-    </li>
-    <li><a href="#e-commerce">E-commerce</a>
-      <ul>
-        <li><a href="#marketsyai-creació-de-botigues-en-línia">Marketsy.ai: Creació de Botigues en Línia</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#llms-open-source">LLMS Open Source</a></li>
-    <li><a href="#classificació-dimatges">Classificació d&rsquo;imatges</a>
-      <ul>
-        <li><a href="#clip">Clip</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li><a href="#chatgpt-plugins">ChatGPT Plugins</a></li>
-    <li><a href="#plugins-provats">Plugins provats</a>
-      <ul>
-        <li><a href="#webpilot">Webpilot</a></li>
-      </ul>
-    </li>
-    <li><a href="#wolfram">Wolfram</a></li>
-    <li><a href="#smart-slides">Smart Slides</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#llava">LlaVa</a></li>
-  </ul>
-</nav>
-</div>
-
-<p>Aquest document ofereix una visió general de diverses eines i tecnologies en el camp de la intel·ligència artificial que vaig trobant i analitzant.</p>
-<h2 id="models-de-traducció-i-conversió-de-veu-i-text">Models de Traducció i Conversió de Veu i Text</h2>
-<h3 id="seamlessm4t-traducció-multilingüe">SeamlessM4T: Traducció Multilingüe</h3>
-<p><a href="https://github.com/facebookresearch/seamless_communication?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=seamlessm4t-better-than-whisper-in-translation">SeamlessM4T</a> és un model de llenguatge fet open source que pot traduir text i parla entre diferents idiomes. Suporta prop de 100 idiomes en el cas del text i 36 en el cas de la parla. El model està compost per tres parts principals: una per entendre la parla, una altra per convertir la parla a text, i una tercera per convertir el text de nou a parla. Algunes parts del model han estat preentrenades per millorar la seva estabilitat i eficàcia.</p>
-<h3 id="speech-gen-conversió-text-a-veu">Speech gen: Conversió Text a Veu</h3>
-<p><a href="https://speechgen.io/">SPeech Gen</a> és una eina que converteix text a veu amb alta qualitat. Ofereix una estratègia de preus intel·ligent basada en la compra de crèdits per utilitzar el producte. Es de pagament</p>
-<h3 id="whisper-reconeixement-de-veu">Whisper: Reconeixement de Veu</h3>
-<p><a href="https://github.com/openai/whisper">Whisper</a> és un model de reconeixement Open source de veu d&rsquo;OpenAI que dona molt bons resultats. No obstant això, té limitacions quan es tracta de converses bilíngües en sessions síncrones en línia.</p>
-<h3 id="whisper-ctranslate2-millora-de-whisper">Whisper-ctranslate2: Millora de Whisper</h3>
-<p><a href="https://github.com/jordimas/whisper-ctranslate2">Whisper-ctranslate2</a> és una millora del model Whisper, amb implementacions més ràpides. Desenvolupat per SoftCatalà, aquest model ofereix una manera senzilla d&rsquo;utilitzar la implementació Whisper de CTranslate2 i facilita la migració per a les persones que utilitzen OpenAI Whisper CLI.</p>
-<h2 id="processament-dimatges">Processament d&rsquo;Imatges</h2>
-<h3 id="segment-anything-segmentació-dobjectes">Segment-anything: Segmentació d&rsquo;Objectes</h3>
-<p><a href="https://github.com/facebookresearch/segment-anything">Segment-anything</a> és un model Open source de Meta que segmenta objectes en imatges. Produeix màscares d&rsquo;objectes d&rsquo;alta qualitat a partir de sol·licituds d&rsquo;entrada, com ara punts o quadres.</p>
-<p><img src="https://github.com/facebookresearch/segment-anything/raw/main/assets/masks2.jpg?raw=true" alt="exemple"></p>
-<h3 id="musica--extracció-dinstruments-i-veus-de-cançons">Musica , extracció d&rsquo;instruments i veus de cançons</h3>
-<p><a href="https://www.lalal.ai">https://www.lalal.ai</a></p>
-<h3 id="generació-dimatges-creació-dimatges">Generació d&rsquo;Imatges: Creació d&rsquo;Imatges</h3>
-<p><a href="https://beta.dreamstudio.ai/">Generació d&rsquo;Imatges</a> és una eina que crea imatges a partir de prompts. Per exemple, pot generar imatges de &ldquo;Elven Lady Galadriel tocant una Fender Stratocaster en una posta de sol a la platja&rdquo;.</p>
-<p>Prompt: &ldquo;Elven Lady Galadriel playing fender stratocaster on a beach sunset&rdquo; Executat en una App (Draw anything) en un iPhone 14 pro.
-<img src="IMGS/galadriel.png" alt=""></p>
-<p>Mateix prompt a Midjourney. <img src="https://wasabi.essi.upc.edu/ludo/IMGS/galadriel-2.png" alt="">
-(Aquestes proves es van fer a principis de 2023 i les versions actuals de SD i Midjourney son molt més potents) Recentment s&rsquo;ha fet public Stable Diffusion XL que promet molt.</p>
-<h2 id="anàlisi-de-documents">Anàlisi de Documents</h2>
-<h3 id="mapdeduce-i-chatpdf-anàlisi-de-pdf">Mapdeduce i Chatpdf: Anàlisi de PDF</h3>
-<p><a href="https://mapdeduce.com/">Mapdeduce</a> i <a href="https://chatpdf.com/">Chatpdf</a> són eines que permeten analitzar el contingut de fitxers PDF. Es creu que utilitzen l&rsquo;API d&rsquo;OpenAI (GPT-3.5-turbo) per a l&rsquo;anàlisi.</p>
-<h2 id="disseny-de-logos">Disseny de Logos</h2>
-<h3 id="logomasterai-generació-de-logos">Logomaster.ai: Generació de Logos</h3>
-<p><a href="https://logomaster.ai/">Logomaster.ai</a> és una eina que genera logos de forma automàtica i ofereix bons resultats.</p>
-<h2 id="eines-de-desenvolupament">Eines de Desenvolupament</h2>
-<h3 id="ludwig-aprenentatge-automàtic-no-code">Ludwig: Aprenentatge Automàtic No Code</h3>
-<p><a href="https://ludwig.ai/latest/">Ludwig</a> és una eina d&rsquo;aprenentatge automàtic que no requereix codificació. Permet la creació de pipelines d&rsquo;aprenentatge de manera flexible i senzilla.</p>
-<h3 id="haystack---desenvolupament-usant-diversos-models-i-pipelines">Haystack -&gt; desenvolupament usant diversos models i pipelines</h3>
-<p><a href="https://github.com/deepset-ai/haystack">https://github.com/deepset-ai/haystack</a></p>
-<h3 id="llm-patterns-avaluació-de-llms">LLM Patterns: Avaluació de LLMs</h3>
-<p><a href="https://eugeneyan.com/writing/llm-patterns/?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=clone-your-voice">LLM Patterns</a> és una eina que ofereix patrons per a l&rsquo;avaluació de Models de Llenguatge de Màquina.</p>
-<h3 id="prompttools-eines-per-a-llms">PromptTools: Eines per a LLMs</h3>
-<p><a href="https://github.com/hegelai/prompttools?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=clone-your-voice">PromptTools</a> és un conjunt d&rsquo;eines per a l&rsquo;avaluació i experimentació amb Models de Llenguatge de Màquina.</p>
-<h2 id="e-commerce">E-commerce</h2>
-<h3 id="marketsyai-creació-de-botigues-en-línia">Marketsy.ai: Creació de Botigues en Línia</h3>
-<p><a href="https://chat.openai.com/#">Marketsy.ai</a> és una eina que utilitza la intel·ligència artificial per crear botigues en línia. Ofereix una gran varietat de plantilles i opcions de personalització.</p>
-<h1 id="eines-disseny-gráfic">Eines disseny gráfic</h1>
-<p><a href="https://designer.microsoft.com">https://designer.microsoft.com</a> Permet dissenyar imatges, diapositives, retols a partir de prompts.</p>
-<h2 id="llms-open-source">LLMS Open Source</h2>
-<p><a href="https://www.adept.ai/blog/persimmon-8b">https://www.adept.ai/blog/persimmon-8b</a></p>
-<p>MISTRAL 7B
-<a href="https://docs.mistral.ai/quickstart/">https://docs.mistral.ai/quickstart/</a></p>
-<h2 id="classificació-dimatges">Classificació d&rsquo;imatges</h2>
-<h3 id="clip">Clip</h3>
-<p><strong>CLIP (Contrastive Language–Image Pre-training)</strong>: CLIP és un model desenvolupat per OpenAI que pot entendre imatges juntament amb text de manera conjunta. Aquesta capacitat es deriva de la seva formació, on s&rsquo;entrena per predir la correspondència entre una imatge i una frase en un conjunt massiu de parells d&rsquo;imatges i frases. Algunes de les seves característiques principals són:</p>
-<ol>
-<li><strong>Versatilitat</strong>: A diferència d&rsquo;altres models que requereixen entrenament específic per a tasques concretes, CLIP pot realitzar diverses tasques visuals sense necessitat de reentrenament.</li>
-<li><strong>Combinació de Text i Imatge</strong>: Gràcies a la seva formació conjunta, CLIP pot comprendre i generar representacions tant d&rsquo;imatges com de text.</li>
-<li><strong>Aplicacions</strong>: Des de la classificació d&rsquo;imatges fins a la generació d&rsquo;art, CLIP ha demostrat ser útil en una àmplia gamma d&rsquo;aplicacions visuals.</li>
-</ol>
-<p>Per utilitzar CLIP, normalment es carrega el model preentrenat i es fa servir per obtenir representacions d&rsquo;imatges i/o text. Aquestes representacions es poden utilitzar després per a diverses tasques, com ara la cerca d&rsquo;imatges, la classificació, entre d&rsquo;altres.
-<a href="https://openai.com/research/clip">https://openai.com/research/clip</a></p>
-<h1 id="generació-de-musica-a-partir-de-prompt">Generació de musica a partir de prompt</h1>
-<p><strong>Stable Audio</strong>, creat per <strong>Stability.ai</strong>, és un sistema que permet generar música i efectes sonors a partir de descripcions de text. Aquesta empresa, coneguda pel seu generador d&rsquo;imatges Stable Diffusion i el generador de text StableLM, ha donat un pas més enllà amb aquesta innovadora eina.
-<a href="https://www.stableaudio.com">https://www.stableaudio.com</a></p>
-<h2 id="chatgpt-plugins">ChatGPT Plugins</h2>
-<p>Els plugins de ChatGTP son un instrument que permet al chatbot fer una crida de servei web a una aplicació - IA o tradicional - per obtenir informació o ampliar-ne les funcionalitats.</p>
-<h2 id="plugins-provats">Plugins provats</h2>
-<h3 id="webpilot">Webpilot</h3>
-<p>Permet a chatgtp consultar págines web. Cada cop és menys util ja que moltes webs comencen a bloquejar-ne l&rsquo;accés a través del Robots.txt</p>
-<h2 id="wolfram">Wolfram</h2>
-<p>Chatgtp por demanar accés a dades cientifiques, estadistiques, fer càlculs matematics o representar grafics&hellip; el més util per a mi.</p>
-<h2 id="smart-slides">Smart Slides</h2>
-<p>Si, Chatgtp et fa les diapositives de les teves presentacions&hellip;</p>
-<h1 id="models-de-visió">Models de visió</h1>
-<h2 id="llava">LlaVa</h2>
-<p>LLaVa 1.5 va ser llançada per un equip de investigadors, i com GPT-4V, pot respondre preguntes sobre imatges. El que és interessant d&rsquo;aquest model és que és fàcil posar-lo en marxa en maquinari de nivell de consumidor (GPU amb menys de 8GB de VRAM).
-<a href="https://llava-vl.github.io/">https://llava-vl.github.io/</a></p>
+			<h3 id="models-de-traducció-i-conversió-de-veu-i-text">Models de Traducció i Conversió de Veu i Text</h3>
+<ul>
+<li><strong>SeamlessM4T: Traducció Multilingüe</strong>: Model open source que tradueix text i parla entre diferents idiomes, suportant prop de 100 idiomes en text i 36 en parla. - <a href="https://github.com/facebookresearch/seamless_communication?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=seamlessm4t-better-than-whisper-in-translation">Enllaç</a></li>
+<li><strong>Speech Gen: Conversió Text a Veu</strong>: Eina de pagament que converteix text a veu amb alta qualitat. - <a href="https://speechgen.io/">Enllaç</a></li>
+<li><strong>Whisper: Reconeixement de Veu</strong>: Model open source d&rsquo;OpenAI per al reconeixement de veu amb algunes limitacions en converses bilíngües. - <a href="https://github.com/openai/whisper">Enllaç</a></li>
+<li><strong>Whisper-ctranslate2: Millora de Whisper</strong>: Millora del model Whisper, amb implementacions més ràpides per SoftCatalà. - <a href="https://github.com/jordimas/whisper-ctranslate2">Enllaç</a></li>
+<li><a href="https://github.com/ggerganov/whisper.cpp">https://github.com/ggerganov/whisper.cpp</a> versió high performance de Whisper.. oferint api com openai i tot <a href="https://github.com/ggerganov/whisper.cpp/pull/1380">https://github.com/ggerganov/whisper.cpp/pull/1380</a></li>
+<li><a href="https://github.com/Vaibhavs10/insanely-fast-whisper?utm_source=tldrai"><strong>Insanely Fast Whisper with Speaker Diarization (GitHub Repo)</strong></a>   A somewhat opinionated CLI tool for transcribing audio files. It also now includes speaker segmentation and diarization (e.g., recognizing speaker 1 vs speaker 2). The claim is they can transcribe 2.5 hrs of audio in 100s, even on some of the largest models available.</li>
+</ul>
+<h3 id="processament-dimatges">Processament d&rsquo;Imatges</h3>
+<ul>
+<li><strong>Segment-anything: Segmentació d&rsquo;Objectes</strong>: Model open source de Meta per a la segmentació d&rsquo;objectes en imatges. - <a href="https://github.com/facebookresearch/segment-anything">Enllaç</a></li>
+<li><strong>Generació d&rsquo;Imatges</strong>: Eina que crea imatges a partir de prompts, com l&rsquo;exemple de &ldquo;Elven Lady Galadriel&rdquo;. - <a href="https://beta.dreamstudio.ai/">Enllaç</a></li>
+</ul>
+<ul>
+<li>emu edit <a href="https://emu-edit.metademolab.com">https://emu-edit.metademolab.com</a></li>
+</ul>
+<h3 id="anàlisi-de-documents">Anàlisi de Documents</h3>
+<ul>
+<li><strong>Mapdeduce i Chatpdf: Anàlisi de PDF</strong>: Eines per analitzar contingut de fitxers PDF, possiblement usant l&rsquo;API d&rsquo;OpenAI (GPT-3.5-turbo). - <a href="https://mapdeduce.com/">Mapdeduce</a>, <a href="https://chatpdf.com/">Chatpdf</a></li>
+</ul>
+<h3 id="disseny-de-logos">Disseny de Logos</h3>
+<ul>
+<li><strong>Logomaster.ai: Generació de Logos</strong>: Eina automàtica per a la generació de logos. - <a href="https://logomaster.ai/">Enllaç</a></li>
+</ul>
+<h3 id="eines-de-desenvolupament">Eines de Desenvolupament</h3>
+<ul>
+<li><strong>Ludwig: Aprenentatge Automàtic No Code</strong>: Eina per a la creació de pipelines d&rsquo;aprenentatge automàtic sense necessitat de codificació. - <a href="https://ludwig.ai/latest/">Enllaç</a></li>
+<li><strong>Haystack</strong>: Eina per al desenvolupament amb diversos models i pipelines. - <a href="https://github.com/deepset-ai/haystack">Enllaç</a></li>
+<li><strong>LLM Patterns: Avaluació de LLMs</strong>: Patrons per a l&rsquo;avaluació de Models de Llenguatge de Màquina. - <a href="https://eugeneyan.com/writing/llm-patterns/?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=clone-your-voice">Enllaç</a></li>
+<li><strong>PromptTools: Eines per a LLMs</strong>: Conjunt d&rsquo;eines per a l&rsquo;avaluació i experimentació amb Models de Llenguatge de Màquina. - <a href="https://github.com/hegelai/prompttools?utm_source=www.theprompt.io&amp;utm_medium=newsletter&amp;utm_campaign=clone-your-voice">Enllaç</a></li>
+<li>Streamlit <a href="https://streamlit.io">https://streamlit.io</a></li>
+<li>Run llama RAGS <a href="https://github.com/run-llama/rags?utm_source=tldrnewsletter">https://github.com/run-llama/rags?utm_source=tldrnewsletter</a></li>
+</ul>
+<h3 id="e-commerce">E-commerce</h3>
+<ul>
+<li><strong>Marketsy.ai: Creació de Botigues en Línia</strong>: Eina per crear botigues en línia amb diverses plantilles i opcions de personalització. - <a href="https://chat.openai.com/#">Enllaç</a></li>
+</ul>
+<h3 id="eines-de-disseny-gràfic">Eines de Disseny Gràfic</h3>
+<ul>
+<li>Eina de Microsoft per al disseny d&rsquo;imatges, diapositives, retols a partir de prompts. - <a href="https://designer.microsoft.com/">Enllaç</a></li>
+</ul>
+<h3 id="models-de-visió">Models de Visió</h3>
+<ul>
+<li><strong>CLIP</strong>: Model d&rsquo;OpenAI que combina text i imatge per a diverses tasques visuals. - <a href="https://openai.com/research/clip">Enllaç</a></li>
+<li><strong>LLaVa</strong>: Model que pot respondre preguntes sobre imatges, accessible en maquinari de consumidor. - <a href="https://llava-vl.github.io/">Enllaç</a></li>
+</ul>
+<h3 id="generació-de-música-a-partir-de-prompt">Generació de Música a partir de Prompt</h3>
+<ul>
+<li><strong>Stable Audio</strong>: Sistema per generar música i efectes sonors a partir de descripcions de text. - <a href="https://www.stableaudio.com/">Enllaç</a></li>
+</ul>
+<h3 id="chatgpt-plugins">ChatGPT Plugins</h3>
+<ul>
+<li><strong>Webpilot</strong>: Plugin per a consultes a pàgines web.</li>
+<li><strong>Wolfram</strong>: Plugin per accedir a dades científiques i realitzar càlculs matemàtics.</li>
+<li><strong>Smart Slides</strong>: Plugin que assisteix en la creació de diapositives.</li>
+</ul>
+<h2 id="sumarització">Sumarització</h2>
+<p><a href="https://scisummary.com">https://scisummary.com</a>
+<a href="https://chatpdf.com">https://chatpdf.com</a></p>
+<h3 id="datasets">Datasets</h3>
+<ul>
+<li><strong>SCB-ST-Dataset4</strong>: Dataset per l&rsquo;estudi del comportament espai-temporal en escenaris d&rsquo;aula. - <a href="https://arxiv.org/abs/2310.16267v1?utm_source=tldrai">Enllaç</a></li>
+</ul>
+<p>Cada descripció proporciona una idea clara del que ofereix cada eina o tecnologia, acompanyada dels enllaços per a més detalls.</p>
 
 		</div>
 
