@@ -7,97 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Wed, 16 Aug 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Aug 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="https://wasabi.essi.upc.edu/ludo/tags/catal%C3%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Captura Directa de CO2 a l&#39;Oceà: Una Nova Eina per Combatre el Canvi Climàtic</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/post-1-1/</link>
       <pubDate>Wed, 16 Aug 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/post-1-1/</guid>
-      <description>Els oceans com a eines per capturar carboni
-Els oceans són una esponja de carboni massiva, absorbint un quart de les emissions globals de CO2.</description>
+      <description>Els oceans com a eines per capturar carboni&#xA;Els oceans són una esponja de carboni massiva, absorbint un quart de les emissions globals de CO2.</description>
     </item>
-    
     <item>
       <title>Organitzacions vinculades al programari lliure demanen a la UE que revisin el AI Act per protegir el programari lliure</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/open-source-normativa-eu-document/</link>
       <pubDate>Wed, 02 Aug 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/open-source-normativa-eu-document/</guid>
       <description>Organitzacions vinculades al programari lliure com Creative Commons, Github, Huggingface han fet public un document en el que fan suggeriments sobre com millorar el AI Act per protegir i fomentar el desenvolupament de programari lliure.</description>
     </item>
-    
     <item>
       <title>Una Enigma de la Guerra Civil, es conserva al costat del Campus Nord de la UPC </title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/enigma-a-l-costat-del-campus-nord/</link>
       <pubDate>Tue, 01 Aug 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/enigma-a-l-costat-del-campus-nord/</guid>
       <description>La màquina Enigma, l&amp;rsquo;enginy de criptografia que va jugar un paper clau durant la Segona Guerra Mundial, és un símbol potent del nostre passat tecnològic.</description>
     </item>
-    
     <item>
       <title>I la IA va venir a l&#39;aula</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/i-la-ia-va-venir-a-laula/</link>
       <pubDate>Wed, 26 Apr 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/i-la-ia-va-venir-a-laula/</guid>
       <description>Diu la llegenda que el savi Anand (nom suggerit per ChatGPT, a qui jo anomeno Skippy ^2) va ajudar al rei Devendra (nom també proposat per Skippy) a resoldre un problema difícil.</description>
     </item>
-    
     <item>
       <title>Traductor simple de documents multi-idioma en python. Un projecte ràpid.</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/traductor-cat/</link>
       <pubDate>Sat, 08 Apr 2023 03:01:59 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/traductor-cat/</guid>
       <description>[Nota : aquesta entrada ha estat traduida amb el pròpi traductor] [Nota: fer servir l&amp;rsquo;api té costos, el cost del us depèn de la mida dels documents.</description>
     </item>
-    
     <item>
       <title>Directori d&#39;eines IA útils</title>
       <link>https://wasabi.essi.upc.edu/ludo/eines_ia/</link>
       <pubDate>Sun, 12 Mar 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/eines_ia/</guid>
       <description>Models de Traducció i Conversió de Veu i Text SeamlessM4T: Traducció Multilingüe: Model open source que tradueix text i parla entre diferents idiomes, suportant prop de 100 idiomes en text i 36 en parla.</description>
     </item>
-    
     <item>
       <title>Què és i què no és ChatGPT?</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/que-es-chatgtp/</link>
       <pubDate>Fri, 24 Feb 2023 12:13:38 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/que-es-chatgtp/</guid>
       <description>Continguts Què és ChatGPT ? ChatGPT és un Software As A Service (SaaS) Termes i condicions Drets d&amp;rsquo;autoria i responsabilitat dels outputs de ChatGPT Cost i accés Quina és la finalitat de ChatGPT i perquè es de franc?</description>
     </item>
-    
     <item>
       <title>Recursos sobre història de la informática</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/recursos-hist%C3%B2ria-de-la-inform%C3%A1tica/</link>
       <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/recursos-hist%C3%B2ria-de-la-inform%C3%A1tica/</guid>
       <description>Conferencia John Mc Carty https://www.youtube.com/watch?v=K13_sWm_gZw&amp;amp;t=23s</description>
     </item>
-    
     <item>
       <title>Videos del curs ChatGPT Oportunitat i repte per a la docencia v.1</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/post-1/</link>
       <pubDate>Thu, 23 Feb 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/post-1/</guid>
       <description>Si ets docent i estàs interessat en les IAs generatives i les seves aplicacions a l&amp;rsquo;ensenyament, t&amp;rsquo;interessarà saber que ja pots accedir als vídeos del curs &amp;ldquo;ChatGPT: Oportunitat i Repte per a la docència&amp;rdquo; al meu canal de Youtube.</description>
     </item>
-    
     <item>
       <title>Avaluació ètica de models d&#39;IA</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</guid>
       <description>L&amp;rsquo;article titulat &amp;ldquo;Evaluating social and ethical risks from generative AI&amp;rdquo; ha estat escrit per Google DeepMind. En aquest, es discuteix un marc proposat per avaluar els riscos ètics i socials associats amb l&amp;rsquo;ús de la Intel·ligència Artificial generativa, subratllant la importància del context en l&amp;rsquo;avaluació de la seguretat dels sistemes d&amp;rsquo;IA i suggerint una responsabilitat compartida entre diferents actors per garantir un desplegament responsable d&amp;rsquo;aquesta tecnologia.</description>
     </item>
-    
   </channel>
 </rss>

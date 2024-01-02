@@ -7,15 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sun, 12 Mar 2023 02:01:58 +0530</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/eines/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 12 Mar 2023 02:01:58 +0530</lastBuildDate>
+    <atom:link href="https://wasabi.essi.upc.edu/ludo/tags/eines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Directori d&#39;eines IA útils</title>
       <link>https://wasabi.essi.upc.edu/ludo/eines_ia/</link>
       <pubDate>Sun, 12 Mar 2023 02:01:58 +0530</pubDate>
-      
       <guid>https://wasabi.essi.upc.edu/ludo/eines_ia/</guid>
       <description>Models de Traducció i Conversió de Veu i Text SeamlessM4T: Traducció Multilingüe: Model open source que tradueix text i parla entre diferents idiomes, suportant prop de 100 idiomes en text i 36 en parla.</description>
     </item>
-    
   </channel>
 </rss>

@@ -222,21 +222,22 @@
     <lastmod>2020-02-17T02:01:58+05:30</lastmod>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs-1/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/pasted/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</loc>
   </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/chatgpt/</loc>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/office_hours/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/cat/transc_video3/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/courses_en/</loc>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/resources-for-hugo-obsidian-web-publishing/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/ia-cat/centaure/</loc>
   </url><url>
@@ -246,6 +247,8 @@
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/pages/wiki/research/hype/</loc>
   </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/resources-for-hugo-/-obsidian-/-web-publishing/</loc>
+  </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/posts/avaluaci%C3%B3-etica-de-models-dia/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/tags/etica/</loc>
@@ -253,5 +256,7 @@
     <loc>https://wasabi.essi.upc.edu/ludo/imgs/</loc>
   </url><url>
     <loc>https://wasabi.essi.upc.edu/ludo/ludo/</loc>
+  </url><url>
+    <loc>https://wasabi.essi.upc.edu/ludo/resources-for-hugo-/</loc>
   </url>
 </urlset>
