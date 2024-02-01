@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Code Project Diarize SRT - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Code Project Diarize SRT" />
+<meta property="og:description" content="Identifies the diferent sepakers in a recording and labels them on a SRT file.
+Github Repo https://github.com/granludo/diarize_srt
+By Marc Alier @granludo hhtps://wasabi." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/code/diarize_srt/" /><meta property="article:section" content="code" />
+<meta property="article:published_time" content="2024-01-25T02:01:58+05:30" />
+<meta property="article:modified_time" content="2024-01-25T02:01:58+05:30" />
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Code Project Diarize SRT"/>
+<meta name="twitter:description" content="Identifies the diferent sepakers in a recording and labels them on a SRT file.
+Github Repo https://github.com/granludo/diarize_srt
+By Marc Alier @granludo hhtps://wasabi."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom.css" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/dark.css" media="(prefers-color-scheme: dark)" />
+	<link rel="stylesheet" type="text/css" href="https://wasabi.essi.upc.edu/ludo/css/custom-dark.css" media="(prefers-color-scheme: dark)" />
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/main.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/abc.js"></script>
+	<script src="https://wasabi.essi.upc.edu/ludo/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		
+<div class="header">
+	<base href="$.Site.BaseURL">
+	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
+	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
+			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a><a href="https://wasabi.essi.upc.edu/ludo/index.xml" title="RSS"><i data-feather="cast"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/ludo/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/about">About me</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/cursos">Cursos</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/eines_ia">Eines IA</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/office_hours">Office hours</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/castellano">Castellano</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/catal%C3%A0">Català</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags/english">English</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Code Project Diarize SRT</h1>
+			<div class="meta">Posted at &mdash; Jan 25, 2024</div>
+		</div>
+
+		<div class="markdown">
+			<p>Identifies the diferent sepakers in a recording and labels them on a SRT file.</p>
+<p>Github Repo <a href="https://github.com/granludo/diarize_srt">https://github.com/granludo/diarize_srt</a></p>
+<p>By Marc Alier @granludo hhtps://wasabi.essi.upc.edu/ludo</p>
+<h1 id="about-diarize-srt">About Diarize SRT</h1>
+<p>These scripts are designed to perform speaker diarization on recorded conversations. Speaker diarization is the process of partitioning an audio stream into segments according to which speaker is talking. Once the speakers in a conversation are identified, this set of scripts also incorporates the identified speaker information into an SRT (SubRip Subtitle) file. SRT files are used to provide subtitles or captions along with video or audio files. By using these scripts, you can effectively analyze a recorded conversation, determine who is speaking at what times, and then embed this information into the subtitles of the recording. This is particularly useful for creating more informative and accessible audio-visual content, where it&rsquo;s not just the spoken words that are captioned, but also the information about who is speaking them</p>
+<h2 id="tl-dr">TL DR</h2>
+<ul>
+<li>This is a small set of python scripts that will allow you to diarize sepakers in a recorded conversation and include the speaker information into a SRT file.</li>
+</ul>
+<p>Clone the repo</p>
+<p>``</p>
+<p>git clone <a href="mailto:git@github.com">git@github.com</a>:granludo/diarize_srt.git</p>
+<p>``</p>
+<p>On ../apis.yaml put your Huggingace token</p>
+<p>``</p>
+<p>api:</p>
+<p>huggingface_token: &ldquo;your_huggingface_token_here&rdquo;</p>
+<p>``</p>
+<p>``</p>
+<p>python3 diarize.py inputfile.wav outputfile.txt</p>
+<p>``</p>
+<p>``</p>
+<p>python3 diarize_srts.py diarization_file.txt srt_file.srt output_file.srt</p>
+<p>``</p>
+<h2 id="requirements">Requirements</h2>
+<ul>
+<li>We asume you have your audio .wav files and that using OpenAi&rsquo;s &ldquo;Whisper&rdquo; or another transcription</li>
+</ul>
+<p>model or app you have your .srt files.</p>
+<ul>
+<li>
+<p>You nee to install <a href="https://github.com/pyannote/pyannote-audio">https://github.com/pyannote/pyannote-audio</a> in your system. And accept the conditions at their hugginface page. <a href="https://huggingface.co/pyannote/speaker-diarization-3.1">https://huggingface.co/pyannote/speaker-diarization-3.1</a> <a href="https://huggingface.co/pyannote/segmentation-3.0">https://huggingface.co/pyannote/segmentation-3.0</a></p>
+</li>
+<li>
+<p>You need a Huggingface API token <a href="https://huggingface.co/settings/tokens">https://huggingface.co/settings/tokens</a>. It should be on a ../apis.yaml , relative to the directory where you put this project. The yaml file should have this format</p>
+</li>
+</ul>
+<p>``</p>
+<p>api:</p>
+<p>huggingface_token: &ldquo;your_huggingface_token_here&rdquo;</p>
+<p>``</p>
+<h3 id="installation">Installation</h3>
+<p>Clone the repo</p>
+<p>``</p>
+<p>git clone <a href="mailto:git@github.com">git@github.com</a>:granludo/diarize_srt.git</p>
+<p>``</p>
+<p>Install requiremenmts - whatch out for M processors users and Cuda setup on the pytorch section.</p>
+<p>``</p>
+<p>pip install -r requirements.txt</p>
+<p>``</p>
+<p>Make sure you have python 3.10 or above installed. Using Anaocnda or another package manager is advided.</p>
+<h3 id="install-pytoch">Install pytoch.</h3>
+<p>If you are on a M1,M2 or M3 processor you can go to <a href="https://developer.apple.com/metal/pytorch/">https://developer.apple.com/metal/pytorch/</a> .</p>
+<p>If you are on a CUDA device, make sure the proper pytorch is installed, and uncomment the lines 48 and 49 on diarize.py and comment the lines 52 and 53.</p>
+<p>Install the required packages</p>
+<p>``</p>
+<p>pip install -r requirements.txt</p>
+<p>``</p>
+<h3 id="run-diarization">Run diarization</h3>
+<p>``</p>
+<p>python3 diarize.py inputfile.wav outputfile.txt</p>
+<p>``</p>
+<p>This will get you a .txt file with contents like this:</p>
+<p>``</p>
+<p>start=4.1s stop=9.2s speaker_SPEAKER_01</p>
+<p>start=11.2s stop=11.8s speaker_SPEAKER_01</p>
+<p>start=12.5s stop=13.4s speaker_SPEAKER_01</p>
+<p>start=15.5s stop=20.6s speaker_SPEAKER_01</p>
+<p>start=21.1s stop=23.8s speaker_SPEAKER_02</p>
+<p>start=24.3s stop=27.6s speaker_SPEAKER_02</p>
+<p>start=28.9s stop=29.9s speaker_SPEAKER_01</p>
+<p>start=30.0s stop=34.2s speaker_SPEAKER_01</p>
+<p>start=35.4s stop=37.1s speaker_SPEAKER_01</p>
+<p>start=40.2s stop=47.8s speaker_SPEAKER_01</p>
+<p>start=51.6s stop=53.4s speaker_SPEAKER_01</p>
+<p>start=53.6s stop=72.3s speaker_SPEAKER_05</p>
+<p>start=72.9s stop=73.8s speaker_SPEAKER_05</p>
+<p>``</p>
+<p>For batch operations you can do</p>
+<p>``</p>
+<p>bash diarize.sh origin_directory output_directory</p>
+<p>``</p>
+<p>And go grab a cofee.</p>
+<p>Now using a text editor and a nice search and replace you can replace &ldquo;speaker_SPEAKER_01&rdquo; for &ldquo;Speaker Name Here&rdquo;.</p>
+<h3 id="apply-diarization-to-srt-files">Apply diarization to SRT files</h3>
+<p>A SRT file is a standard subtitles file that you can get from a transcription model like OpenAi&rsquo;s Whisper.</p>
+<p>``</p>
+<p>python3 diarize_srts.py diarization_file.txt srt_file.srt output_file.srt</p>
+<p>``</p>
+<h3 id="remove-all-speakers-but-one">Remove all speakers but one</h3>
+<p>This script is for a special case, supose you want the trasncription of a lecture, for lecture notes or</p>
+<p>a RAG system or something. And you need to keep only the things that ONE speaker says. This have you covered.</p>
+<p>``</p>
+<p>python3 remove_speakers.py diarization_file.txt srt_file.srt output_file.srt speaker_to_keep</p>
+<p>``</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-R81B664LFS', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/code/diarize_srt/" + node.getAttribute('href')))
+  </script>
+</body>
+</html>

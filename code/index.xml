@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Codes on Marc Alier (Ludo) - Home Page </title>
+    <link>https://wasabi.essi.upc.edu/ludo/code/</link>
+    <description>Recent content in Codes on Marc Alier (Ludo) - Home Page </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
+    <lastBuildDate>Thu, 25 Jan 2024 02:01:58 +0530</lastBuildDate>
+    <atom:link href="https://wasabi.essi.upc.edu/ludo/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Project Diarize SRT</title>
+      <link>https://wasabi.essi.upc.edu/ludo/code/diarize_srt/</link>
+      <pubDate>Thu, 25 Jan 2024 02:01:58 +0530</pubDate>
+      <guid>https://wasabi.essi.upc.edu/ludo/code/diarize_srt/</guid>
+      <description>Identifies the diferent sepakers in a recording and labels them on a SRT file.&#xA;Github Repo https://github.com/granludo/diarize_srt&#xA;By Marc Alier @granludo hhtps://wasabi.</description>
+    </item>
+  </channel>
+</rss>

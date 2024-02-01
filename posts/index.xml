@@ -7,12 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sun, 31 Dec 2023 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jan 2024 03:01:59 +0530</lastBuildDate>
     <atom:link href="https://wasabi.essi.upc.edu/ludo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Estudi Sobre Hàbits dels Doctorands de la UPC en Gestió de Dades i Ús d&#39;Aplicacions</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-01-29-survey-estudiants-doctorat/</link>
+      <pubDate>Tue, 23 Jan 2024 03:01:59 +0530</pubDate>
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-01-29-survey-estudiants-doctorat/</guid>
+      <description>En aquesta entrada, presento un document important elaborat per l&amp;rsquo;Escola de Doctorat de la UPC. Es tracta de l&amp;rsquo;estudi &amp;ldquo;Dades i aplicacions: anàlisi d’hàbits en gestió de dades i ús d’aplicacions entre els estudiants de doctorat del Campus Nord UPC&amp;rdquo;, basat en una enquesta i un focus group realitzats durant els mesos de juny i juliol.</description>
+    </item>
     <item>
       <title>EdTech Timelines</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/2024-01-01-edtech-timeline/</link>
-      <pubDate>Sun, 31 Dec 2023 02:01:58 +0530</pubDate>
+      <pubDate>Sat, 20 Jan 2024 02:01:58 +0530</pubDate>
       <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-01-01-edtech-timeline/</guid>
       <description>%%{init: { &#39;logLevel&#39;: &#39;debug&#39;, &#39;theme&#39;: &#39;default&#39; , &#39;themeVariables&#39;: { &#39;cScale0&#39;: &#39;#FFD700&#39;, &#39;cScaleLabel0&#39;: &#39;#000000&#39;, &#39;cScale1&#39;: &#39;#228B22&#39;, &#39;cScaleLabel1&#39;: &#39;#FFFFFF&#39;, &#39;cScale2&#39;: &#39;#00008B&#39;, &#39;cScaleLabel2&#39;: &#39;#FFFFFF&#39;, } } }%% timeline title Modern Education Timeline section XIX Century 1800s : Compulsory Education Laws : Schools and Classrooms reflect a factory-like structure : Goal to alphabetize the whole society : Numerical Grading introduced by William Farish : Standardized Testing emerges : Courses by mail section Early section XX Century Early 1900a : Modern School Movement begins : Dewey emphasizes experiential learning : Montessori promotes child individuality : Pressey Teaching Machine (1926) 1940s and 50s : Piaget introduces developmental stage theory : B.</description>
     </item>
