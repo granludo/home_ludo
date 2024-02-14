@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Thu, 25 Jan 2024 02:01:58 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 04 Feb 2024 03:01:59 +0530</lastBuildDate>
     <atom:link href="https://wasabi.essi.upc.edu/ludo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La IA diu que els deures els ha fet la IA</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</link>
+      <pubDate>Sun, 04 Feb 2024 03:01:59 +0530</pubDate>
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</guid>
+      <description>ChatGPT em resumeix sobre l&amp;rsquo;article a The Guardian: https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai&#xA;El darrer any he fet cursos a professores i professors de més de 7 universitats ( Podeu veure part del contingut a https://wasabi.</description>
+    </item>
+    <item>
+      <title>RepoSearch Buscador Semántico de TFGs de Ingeniería Informática</title>
+      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-02-05-buscador-de-tfgs-de-ingenier%C3%ADa-inform%C3%A1tica/</link>
+      <pubDate>Sun, 04 Feb 2024 03:01:59 +0530</pubDate>
+      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-02-05-buscador-de-tfgs-de-ingenier%C3%ADa-inform%C3%A1tica/</guid>
+      <description>En esta entrada os presento RepoSearch un buscador Semántico de TFGs de Ingeniería informática, desarrollado por Juanan Pereira de UPV/EHU https://github.</description>
+    </item>
     <item>
       <title>Code Project Diarize SRT</title>
       <link>https://wasabi.essi.upc.edu/ludo/code/diarize_srt/</link>
@@ -276,13 +290,6 @@
       <description>Un prompt és una entrada o un conjunt d&amp;rsquo;entrades que es proporcionen al Model de Machine Learning o IA Generativa per generar una sortida (una imatge, un text, etc.</description>
     </item>
     <item>
-      <title>Proposta formativa ChatGPT Oportunitat i repte per a la docència (presencial 6h)</title>
-      <link>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doce%CC%80ncia-6h/</link>
-      <pubDate>Wed, 01 Feb 2023 02:01:58 +0530</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/pages/formaci%C3%B3/proposta-formativa-chatgpt-oportunitat-i-repte-per-a-la-doce%CC%80ncia-6h/</guid>
-      <description>ChatGPT i Models d&amp;rsquo;IA Generativa, oportunitat i repte per a la docencia Proposta de formació presencial o online, 6h&#xA;Sessió 1: Introducció a la Intel·ligència Artificial Generativa Definició i funcionament de l&amp;rsquo;IA generativa: Comprendre què és l&amp;rsquo;IA generativa, com funciona i com es pot aplicar en diferents àmbits, com l&amp;rsquo;educació.</description>
-    </item>
-    <item>
       <title>El riesgo de seguir con Google Apps para universidades como la UPC</title>
       <link>https://wasabi.essi.upc.edu/ludo/posts/2023-01-17-post-2/</link>
       <pubDate>Tue, 17 Jan 2023 02:01:58 +0530</pubDate>
@@ -319,45 +326,17 @@
     </item>
     <item>
       <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cat/chatgpt_cat_v1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cursos_cat/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/cursos_cat/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/chatgpt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/chatgpt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/hugo_obsidian_resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/hugo_obsidian_resources/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/resources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/ludo/pages/open_courseware/en/resources/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title></title>
       <link>https://wasabi.essi.upc.edu/ludo/office_hours/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://wasabi.essi.upc.edu/ludo/office_hours/</guid>
       <description>If you need to meet with me these are my next office hours for videoconference&#xA;Office Hours Schedule Date Time Time Zone Google Meet Link Dilluns, 8 de gener 3:15-4:30pm Europe/Madrid Join Dilluns, 15 de gener 3:15-4:30pm Europe/Madrid Join Dilluns, 22 de gener 3:15-4:30pm Europe/Madrid Join Dilluns, 29 de gener 3:15-4:30pm Europe/Madrid Join Dilluns, 5 de febrer 3:15-4:30pm Europe/Madrid Join Dilluns, 12 de febrer 3:15-4:30pm Europe/Madrid Join Dilluns, 19 de febrer 3:15-4:30pm Europe/Madrid Join </description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://wasabi.essi.upc.edu/ludo/pages/dev/chromadb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://wasabi.essi.upc.edu/ludo/pages/dev/chromadb/</guid>
+      <description>ChromaDB es una base de datos vectorial. Open Source accesible desde python, javascript y otros lenguajes.&#xA;Recursos:&#xA;Python Guide to ChromaDB </description>
     </item>
     <item>
       <title></title>
