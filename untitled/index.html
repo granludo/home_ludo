@@ -1,17 +1,18 @@
+
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title> - Marc Alier (Ludo) - Home Page </title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="Proposta per a la CONVOCATÒRIA D’AJUTS PER A LA REALITZACIÓ DE PROJECTES DE MILLORA I INNOVACIÓ DOCENT A LA FIB 2024 Títol: Implementació i Avaluació d&rsquo;Assistents Educatius IA en Assignatures de Grau i Màster amb LLMentor" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://wasabi.essi.upc.edu/ludo/untitled/" /><meta property="article:section" content="" />
 
 
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content=""/>
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Proposta per a la CONVOCATÒRIA D’AJUTS PER A LA REALITZACIÓ DE PROJECTES DE MILLORA I INNOVACIÓ DOCENT A LA FIB 2024 Títol: Implementació i Avaluació d&rsquo;Assistents Educatius IA en Assignatures de Grau i Màster amb LLMentor"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://wasabi.essi.upc.edu/ludo/css/normalize.css" />
@@ -29,8 +30,9 @@
 
 <body>
 	<div class="container wrapper post">
-		<div class="header">
-	<base href="https://wasabi.essi.upc.edu/ludo/">
+		
+<div class="header">
+	<base href="$.Site.BaseURL">
 	<h1 class="site-title"><a href="https://wasabi.essi.upc.edu/ludo/">Marc Alier (Ludo) - Home Page </a></h1>
 	<div class="site-description"><h2>Pàgina personal i Calaix Desastre</h2><nav class="nav social">
 			<ul class="flat"><a href="https://mossegalapoma.cat" title="Mossegalapoma.cat Podcast"><i data-feather="mic"></i></a><a href="https://zetatesters.com" title="Zetatesters Podcast"><i data-feather="mic"></i></a><a href="https://cabalgaelcometa.com" title="Cabalgaelcometa Podcast"><i data-feather="mic"></i></a><a href="https://github.com/granludo" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/granludo" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.youtube.com/@MarcAlier/featured" title="Youtube"><i data-feather="youtube"></i></a><a href="https://wasabi.essi.upc.edu/ludo/index.xml" title="RSS"><i data-feather="cast"></i></a></ul>
@@ -53,7 +55,15 @@
 			</li>
 			
 			<li>
-				<a href="/ludo/tags/videos">Videos</a>
+				<a href="/ludo/cursos">Cursos</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/eines_ia">Eines IA</a>
+			</li>
+			
+			<li>
+				<a href="/ludo/office_hours">Office hours</a>
 			</li>
 			
 			<li>
@@ -83,7 +93,53 @@
 		</div>
 
 		<div class="markdown">
-			
+			<h1 id="proposta-per-a-la-convocatòria-dajuts-per-a-la-realització-de-projectes-de-millora-i-innovació-docent-a-la-fib-2024">Proposta per a la CONVOCATÒRIA D’AJUTS PER A LA REALITZACIÓ DE PROJECTES DE MILLORA I INNOVACIÓ DOCENT A LA FIB 2024</h1>
+<hr>
+<h2 id="títol">Títol:</h2>
+<p>Implementació i Avaluació d&rsquo;Assistents Educatius IA en Assignatures de Grau i Màster amb LLMentor</p>
+<h2 id="resum">Resum:</h2>
+<p>Aquest projecte proposa l&rsquo;ús i l&rsquo;avaluació d&rsquo;un sistema software anomenat LLMentor, dissenyat per crear assistents educatius basats en IA. Aquests assistents s&rsquo;integraran amb la plataforma Moodle i permetran una interacció segura i personalitzada amb els estudiants. La iniciativa es provarà en diverses assignatures de grau i màster, estudiant el seu impacte en l&rsquo;aprenentatge i el potencial de l&rsquo;arquitectura com a cas d&rsquo;estudi avançat en sistemes d&rsquo;informació.</p>
+<h2 id="finalitat-del-projecte">Finalitat del projecte:</h2>
+<p>L&rsquo;objectiu és millorar l&rsquo;experiència d&rsquo;aprenentatge dels estudiants mitjançant l&rsquo;ús d&rsquo;assistents educatius basats en IA que ofereixen una forma ràpida d’accedir a grans quantitats d’informació (apunts, vídeos, etc.), un suport personalitzat, fomentant una major interacció i comprensió dels continguts acadèmics.</p>
+<h2 id="destinataris-i-agents-implicats">Destinataris i agents implicats:</h2>
+<ul>
+<li><strong>Destinataris:</strong> Estudiants de les assignatures de grau ASMI, CSI/SIO, Economia i del màster MEI (assignatura DGSI).</li>
+<li><strong>Agents implicats:</strong> Professors d&rsquo;aquestes assignatures, equip de desenvolupament de LLMentor: Marc Alier, Maria José Casañ, Jose Cabré, Raimon Lapuente.</li>
+</ul>
+<h2 id="fonamentació-de-la-necessitat-del-projecte-i-impacte-esperat">Fonamentació de la necessitat del projecte i impacte esperat:</h2>
+<p>L&rsquo;equip del projecte hem desenvolupat un sistema software anomenat LLMentor, que properament es farà open source. Aquest software permet als professors entrenar un Assistent Educatiu basat en IA a partir de continguts/apunts (pdfs, textos, vídeos) amb un sistema RAG, permet refinar-ne el comportament amb prompt engineering, dissenyar diferents formes d&rsquo;interacció, integrar els Assistents educatius amb la plataforma Moodle de la universitat amb seguretat i respectant la privacitat, observar l&rsquo;activitat de l&rsquo;assistent amb anonimització completa, i de forma independent de sistemes LLM. El sistema pot fer servir com a tecnologia base qualsevol plataforma LLM tant pública (OpenAi, Google, Anthropic, Mistral) com en infraestructura pròpia amb models open source (Mistral, Llama 3, Gemma, Flama, etc).</p>
+<p>Ja s&rsquo;han fet experiments amb èxit a l&rsquo;assignatura ASMI d&rsquo;utilització dels assistents en algunes pràctiques, que estan pendents de publicació. Volem executar diverses accions controlades d&rsquo;utilització d&rsquo;assistents educatius dissenyats específicament per a activitats d&rsquo;aprenentatge de les assignatures de grau ASMI, CSI/SIO, Economia, i al Màster MEI l&rsquo;assignatura DGSI. Addicionalment, a les assignatures CSI/SIO i DGSI, s&rsquo;estudiarà l&rsquo;arquitectura del sistema LLMentor com a cas d&rsquo;arquitectura avançada de sistemes d&rsquo;informació.</p>
+<h2 id="pla-dacció">Pla d’acció:</h2>
+<h3 id="descripció-de-la-innovació-docent">Descripció de la innovació docent:</h3>
+<p>Volem executar diverses accions controlades d&rsquo;utilització d&rsquo;assistents educatius dissenyats específicament per a activitats d&rsquo;aprenentatge de les assignatures de grau ASMI, CSI/SIO, Economia, i al Màster MEI l&rsquo;assignatura DGSI.</p>
+<p>Addicionalment, a les assignatures CSI/SIO i DGSI, s&rsquo;estudiarà l&rsquo;arquitectura i codi del sistema LLMentor com a cas d&rsquo;arquitectura avançada de sistemes d&rsquo;informació.</p>
+<h3 id="pla-de-treball">Pla de treball:</h3>
+<ol>
+<li><strong>Juliol-Setembre 2024:</strong> Disseny d&rsquo;activitats docents, creació i proves d’assistents d’aprenentatge, configuració com a activitats a Atenea. Escriptura d’article a publicar a congrés TEEM 2024 Track 2: Generative AI in educational settings (finals octubre).</li>
+<li><strong>Setembre-Novembre 2024:</strong> Execució d’activitats docents a l’aula.</li>
+<li><strong>Octubre-Desembre 2024:</strong> Avaluació de les experiències.</li>
+<li><strong>Desembre 2024:</strong> Redacció de full paper per a publicar a revista.</li>
+</ol>
+<h3 id="estratègia-de-recollida-i-anàlisi-de-dades">Estratègia de recollida i anàlisi de dades:</h3>
+<p>Avaluarem els resultats de les accions d’innovació docent de forma anonimitzada:</p>
+<ul>
+<li>Comparant la qualitat dels treballs realitzats amb treballs de cursos anteriors.</li>
+<li>Mitjançant enquestes als estudiants que vulguin participar.</li>
+<li>Amb anàlisi de la informació generada amb la interacció amb el sistema, de forma anonimitzada i informant als estudiants. Els estudiants que vulguin fer “opt out” de l&rsquo;anàlisi de les seves interaccions ho poden indicar i el sistema eliminarà els logs corresponents.</li>
+<li>Converses (entrevistes qualitatives) amb estudiants sobre el sistema i la seva percepció.</li>
+</ul>
+<h3 id="pressupost">Pressupost:</h3>
+<p>Es sol·liciten 3,000 € per a destinar a:</p>
+<ul>
+<li>Pagament d’APIs d’LLMs</li>
+<li>Publicació de resultats i assistència a congrés TEEM</li>
+<li>Possible contractació de becari/a de suport</li>
+<li>Pagament d’ordinador de desenvolupament que pugui executar LLMs de forma local (Mac Studio M2 Ultra 128GB Ram)</li>
+</ul>
+<h3 id="sostenibilitat">Sostenibilitat:</h3>
+<p>El projecte és sostenible a llarg termini gràcies a la natura open source de LLMentor. L’equip de desenvolupament és en col·laboració amb la UPV (Dr. Juan Antonio Pereira), i múltiples universitats (UOC, UA, USal, Unex) ja han manifestat interès en fer proves amb el sistema. De manera que els resultats seran sostenibles a llarg termini i transferibles a altres assignatures de la FIB, la UPC i el món.</p>
+<p>Sobre sostenibilitat ambiental, el projecte no suposa entrenar models nous, fet que suposaria un cost energètic molt elevat. Els costos ambientals d’inferència són reduïts, fet que fa que els costos econòmics de les APIs siguin assumibles.</p>
+
 		</div>
 
 		<div class="post-tags">
@@ -98,7 +154,7 @@
 
 
 
-<script type="application/javascript">
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
 	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
@@ -110,5 +166,8 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
 <script>feather.replace()</script>
+	<script>
+    document.querySelectorAll('#TableOfContents a').forEach((node) => node.setAttribute('href', "https://wasabi.essi.upc.edu/ludo/untitled/" + node.getAttribute('href')))
+  </script>
 </body>
 </html>
