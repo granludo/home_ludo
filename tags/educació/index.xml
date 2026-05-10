@@ -1,34 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Educació on Marc Alier (Ludo) - Home Page </title>
-    <link>https://wasabi.essi.upc.edu/ludo/tags/educaci%C3%B3/</link>
-    <description>Recent content in Educació on Marc Alier (Ludo) - Home Page </description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© Marc Alier 2023. Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</copyright>
-    <lastBuildDate>Sun, 04 Feb 2024 03:01:59 +0530</lastBuildDate>
-    <atom:link href="https://wasabi.essi.upc.edu/ludo/tags/educaci%C3%B3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>&#34;El Moment Sputnik&#34; conferencia Marc Alier a la Jornada de Doctorat de la Universitat de lleida</title>
-      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-03-1-conferencia-a-la-udl/</link>
-      <pubDate>Sun, 04 Feb 2024 03:01:59 +0530</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-03-1-conferencia-a-la-udl/</guid>
-      <description>L&amp;rsquo;escola de doctorat de l&amp;rsquo;Universitat de Lleida m&amp;rsquo;ha convidat a donar una conferencia (keynote) a la seva jornada de doctorat el 6/3/2024.</description>
-    </item>
-    <item>
-      <title>La IA dice que has hecho los deberes con IA.</title>
-      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-dice-que-has-hecho-los-deberes-con-ia./</link>
-      <pubDate>Sun, 04 Feb 2024 03:01:59 +0530</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-dice-que-has-hecho-los-deberes-con-ia./</guid>
-      <description>ChatGPT me resume sobre el artículo en The Guardian: https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai&#xA;Robert Topinka, profesor en la Birkbeck, University of London, explora el dilema que enfrentan los profesores con el uso de IA por parte de los estudiantes en la redacción de ensayos.</description>
-    </item>
-    <item>
-      <title>La IA diu que els deures els ha fet la IA</title>
-      <link>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</link>
-      <pubDate>Sun, 04 Feb 2024 03:01:59 +0530</pubDate>
-      <guid>https://wasabi.essi.upc.edu/ludo/posts/2024-02-12-la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</guid>
-      <description>ChatGPT em resumeix sobre l&amp;rsquo;article a The Guardian: https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai&#xA;Robert Topinka, professor a la Birkbeck, University of London, explora el dilema que afronten els professors amb l&amp;rsquo;ús d&amp;rsquo;IA per part dels estudiants en la redacció d&amp;rsquo;assajos.</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Educació on Marc Alier (Ludo)</title><link>https://wasabi.essi.upc.edu/ludo/tags/educaci%C3%B3/</link><description>Recent content in Educació on Marc Alier (Ludo)</description><generator>Hugo -- gohugo.io</generator><language>ca</language><managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor><webMaster>marc.alier@upc.edu (Marc Alier)</webMaster><copyright>© 2026 Marc Alier</copyright><lastBuildDate>Fri, 01 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/tags/educaci%C3%B3/index.xml" rel="self" type="application/rss+xml"/><item><title>'El Moment Sputnik' conferencia Marc Alier a la Jornada de Doctorat de la Universitat de lleida</title><link>https://wasabi.essi.upc.edu/ludo/posts/conferencia-a-la-udl/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/posts/conferencia-a-la-udl/</guid><description>&lt;p&gt;L’escola de doctorat de l’Universitat de Lleida m’ha convidat a donar una conferencia (keynote) a la seva jornada de doctorat el 6/3/2024. Aqui trobareu l’audio i el video de la conferencia:&lt;/p&gt;</description></item><item><title>La IA diu que els deures els ha fet la IA</title><link>https://wasabi.essi.upc.edu/ludo/posts/la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</link><pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/posts/la-ia-diu-que-aquests-deures-els-ha-fet-la-ia/</guid><description>&lt;p&gt;ChatGPT em resumeix sobre l’article a The Guardian: &lt;a href="https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai" target="_blank" rel="noreferrer"&gt;https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Robert Topinka, professor a la Birkbeck, University of London, explora el dilema que afronten els professors amb l’ús d’IA per part dels estudiants en la redacció d’assajos. Després de detectar un assaig marcat com a “100% generat per IA”, Topinka es troba en una situació difícil quan un estudiant excepcionalment brillant impugna aquesta acusació. El cas subratlla els desafiaments dels detectors d’IA, com Turnitin, que poden confondre l’ús legítim de suport tecnològic per part dels estudiants amb trampa. Topinka argumenta la necessitat d’adaptar l’avaluació acadèmica a l’era de l’IA, proposant alternatives com presentacions i podcasts per demostrar el pensament crític i original dels estudiants, tot evitant acusacions injustes i promoure la igualtat d’oportunitats educatives.&lt;/p&gt;</description></item><item><title>La IA diu que has fet els deures amb IA.</title><link>https://wasabi.essi.upc.edu/ludo/posts/la-ia-dice-que-has-hecho-los-deberes-con-ia./</link><pubDate>Mon, 12 Feb 2024 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/posts/la-ia-dice-que-has-hecho-los-deberes-con-ia./</guid><description>&lt;p&gt;ChatGPT em fa un resum de l&amp;rsquo;article a The Guardian: &lt;a href="https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai" target="_blank" rel="noreferrer"&gt;https://www.theguardian.com/commentisfree/2024/feb/13/software-student-cheated-combat-ai&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;&lt;p&gt;Robert Topinka, professor a la Birkbeck, University of London, explora el dilema que afronten els professors amb l&amp;rsquo;ús d&amp;rsquo;IA per part dels estudiants en la redacció d&amp;rsquo;assajos. Després de detectar un assaig marcat com a “100% generat per IA”, Topinka es troba en una situació difícil quan un estudiant excepcionalment brillant impugna aquesta acusació. El cas subratlla els desafiaments dels detectors d&amp;rsquo;IA, com Turnitin, que poden confondre l&amp;rsquo;ús legítim de suport tecnològic per part dels estudiants amb fer trampa. Topinka argumenta la necessitat d&amp;rsquo;adaptar l&amp;rsquo;avaluació acadèmica a l&amp;rsquo;era de la IA, proposant alternatives com presentacions i podcasts per demostrar el pensament crític i original dels estudiants, evitant acusacions injustes i promovent la igualtat d&amp;rsquo;oportunitats educatives.&lt;/p&gt;</description></item></channel></rss>

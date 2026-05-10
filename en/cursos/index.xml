@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cursos / Courses by Marc Alier on Marc Alier (Ludo)</title><link>https://wasabi.essi.upc.edu/ludo/en/cursos/</link><description>Recent content in Cursos / Courses by Marc Alier on Marc Alier (Ludo)</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor><webMaster>marc.alier@upc.edu (Marc Alier)</webMaster><copyright>© 2026 Marc Alier</copyright><atom:link href="https://wasabi.essi.upc.edu/ludo/en/cursos/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://wasabi.essi.upc.edu/ludo/en/cursos/hugo-obsidian-resources/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/en/cursos/hugo-obsidian-resources/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://robb.sh/posts/how-to-use-mermaid-diagrams-in-hugo/" target="_blank" rel="noreferrer"&gt;Build and display Mermaid.js diagrams in Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/visualcurrent/Notion-2-Obsidan" target="_blank" rel="noreferrer"&gt;Export from Notion to Obsidian Github Repo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Course: ChatGPT challenge and oportunity for teaching</title><link>https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/</guid><description>&lt;h2 class="relative group"&gt;Table Of Contents
+ &lt;div id="table-of-contents" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#table-of-contents" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#future-shock" &gt;Future Shock&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#prompts-and-interactions-with-chatgpt-used-in-this-video" &gt;Prompts and interactions with ChatGpt used in this video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#2-llm-basics" &gt;2. LLM Basics&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#3--training-chatgpt" &gt;3. Training ChatGPT&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#prompts-and-interactions-with-chatgpt-used-in-this-video-1" &gt;Prompts and interactions with ChatGpt used in this video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/cursos/chatgpt-opportunity-and-challenge/#4-learning-howto-better-craft-prompts" &gt;4 Learning howto better craft prompts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;Future Shock
+ &lt;div id="future-shock" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#future-shock" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/cvBxJlMmNsY?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;p&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/pages/open_courseware/en/1_chatgpt_es.pdf" target="_blank" rel="noreferrer"&gt;Slides&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

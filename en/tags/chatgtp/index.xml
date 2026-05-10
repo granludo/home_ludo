@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chatgtp on Marc Alier (Ludo)</title><link>https://wasabi.essi.upc.edu/ludo/en/tags/chatgtp/</link><description>Recent content in Chatgtp on Marc Alier (Ludo)</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor><webMaster>marc.alier@upc.edu (Marc Alier)</webMaster><copyright>© 2026 Marc Alier</copyright><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/en/tags/chatgtp/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT in Practice: Strategies for Optimal Interactions</title><link>https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/</guid><description>&lt;h2 class="relative group"&gt;Table Of Contents
+ &lt;div id="table-of-contents" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#table-of-contents" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#ai-generated-content" &gt;AI-Generated Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#search-engine-or-database-content" &gt;Search Engine or Database Content&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#dealing-with-hallucinations" &gt;&lt;strong&gt;Dealing with Hallucinations&lt;/strong&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#what-are-hallucinations" &gt;What Are Hallucinations?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#hallucination-mitigation-strategies" &gt;Hallucination Mitigation Strategies&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#practical-strategies-and-use-cases-of-chatbots-like-chatgtp" &gt;Practical strategies and use cases of Chatbots like ChatGTP&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#language-considerations-for-best-results-use-english" &gt;Language Considerations: for best results, use English&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#putting-context-i-context" &gt;Putting Context i context.&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#text-formatting-a-neat-trick-in-llm-conversations" &gt;Text Formatting: a neat trick in LLM Conversations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#use-text-formats-like-a-ninja" &gt;Use text formats like a ninja&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/en/posts/good_bad_alucinated/#other-uses-of-text-formats-and-chatbots" &gt;Other uses of text formats and chatbots.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Large Language Models (LLMs) like ChatGPT are a new family of technologies that offer a lot of potential but also come with their own set of challenges. We’re using these AI tools more and more for everything from simple questions to generating complex code. So, it’s important to ask: Do we really understand how to get the best out of them?&lt;/p&gt;</description></item></channel></rss>

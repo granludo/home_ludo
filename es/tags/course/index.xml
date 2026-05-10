@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Course on Marc Alier (Ludo)</title><link>https://wasabi.essi.upc.edu/ludo/es/tags/course/</link><description>Recent content in Course on Marc Alier (Ludo)</description><generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor><webMaster>marc.alier@upc.edu (Marc Alier)</webMaster><copyright>© 2026 Marc Alier</copyright><lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wasabi.essi.upc.edu/ludo/es/tags/course/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT en la práctica: estrategias para interacciones óptimas</title><link>https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><author>marc.alier@upc.edu (Marc Alier)</author><guid>https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/</guid><description>&lt;h2 class="relative group"&gt;Table Of Contents
+ &lt;div id="table-of-contents" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#table-of-contents" aria-label="Ancla"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#ai-generated-content" &gt;Contenido generado por IA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#search-engine-or-database-content" &gt;Contenido de buscadores o bases de datos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#dealing-with-hallucinations" &gt;&lt;strong&gt;Cómo lidiar con las alucinaciones&lt;/strong&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#what-are-hallucinations" &gt;¿Qué son las alucinaciones?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#hallucination-mitigation-strategies" &gt;Estrategias para mitigar las alucinaciones&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#practical-strategies-and-use-cases-of-chatbots-like-chatgtp" &gt;Estrategias prácticas y casos de uso de chatbots como ChatGTP&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#language-considerations-for-best-results-use-english" &gt;Consideraciones de idioma: para mejores resultados, usa inglés&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#putting-context-i-context" &gt;Poniendo el contexto en contexto.&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#text-formatting-a-neat-trick-in-llm-conversations" &gt;Formato de texto: un truco útil en conversaciones con LLM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#use-text-formats-like-a-ninja" &gt;Usa formatos de texto como un ninja&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://wasabi.essi.upc.edu/ludo/es/posts/good_bad_alucinated/#other-uses-of-text-formats-and-chatbots" &gt;Otros usos de los formatos de texto y los chatbots.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Los modelos de lenguaje grandes (LLM) como ChatGPT son una familia nueva de tecnologías con mucho potencial, pero también con sus propios retos. Cada vez usamos más estas herramientas de IA para todo: desde preguntas sencillas hasta generar código complejo. Así que conviene preguntarse: ¿realmente sabemos cómo sacarles el máximo partido?&lt;/p&gt;</description></item></channel></rss>
