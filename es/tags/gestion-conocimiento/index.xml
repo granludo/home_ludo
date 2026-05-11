@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gestion-Conocimiento on Marc Alier (Ludo)</title>
+    <link>http://localhost:1313/ludo/es/tags/gestion-conocimiento/</link>
+    <description>Recent content in Gestion-Conocimiento on Marc Alier (Ludo)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor>
+    <webMaster>marc.alier@upc.edu (Marc Alier)</webMaster>
+    <copyright>© 2026 Marc Alier</copyright>
+    <atom:link href="http://localhost:1313/ludo/es/tags/gestion-conocimiento/index.xml" rel="self" type="application/rss+xml" />
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llms-Locales on Marc Alier (Ludo)</title>
+    <link>http://localhost:1313/ludo/es/tags/llms-locales/</link>
+    <description>Recent content in Llms-Locales on Marc Alier (Ludo)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor>
+    <webMaster>marc.alier@upc.edu (Marc Alier)</webMaster>
+    <copyright>© 2026 Marc Alier</copyright>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ludo/es/tags/llms-locales/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimizando mi configuración de LLMs locales para tareas por lotes</title>
+      <link>http://localhost:1313/ludo/es/posts/local-llms-as-bulk-tools/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <author>marc.alier@upc.edu (Marc Alier)</author>
+      <guid>http://localhost:1313/ludo/es/posts/local-llms-as-bulk-tools/</guid>
+      <description>&lt;p&gt;En una ejecución reciente tuve LLMs locales trabajando más de 28 horas, masticando cuatrocientos treinta y siete ficheros markdown. El modelo era &lt;code&gt;qwen3.5:122b&lt;/code&gt;, servido vía Ollama en dos Mac Studio sobre una red local privada. La tarea, nada glamurosa: leer un fichero, devolver un JSON con un resumen de dos frases, las personas nombradas, las etiquetas de temas, las ideas clave que el fichero argumenta. Repetir. Agregar entre ficheros. Escribir los andamios por entrada.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

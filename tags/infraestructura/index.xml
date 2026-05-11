@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Infraestructura on Marc Alier (Ludo)</title>
+    <link>http://localhost:1313/ludo/tags/infraestructura/</link>
+    <description>Recent content in Infraestructura on Marc Alier (Ludo)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ca</language>
+    <managingEditor>marc.alier@upc.edu (Marc Alier)</managingEditor>
+    <webMaster>marc.alier@upc.edu (Marc Alier)</webMaster>
+    <copyright>© 2026 Marc Alier</copyright>
+    <lastBuildDate>Mon, 11 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ludo/tags/infraestructura/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Optimitzar la configuració de LLMs locals per a tasques per lots</title>
+      <link>http://localhost:1313/ludo/posts/local-llms-as-bulk-tools/</link>
+      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+      <author>marc.alier@upc.edu (Marc Alier)</author>
+      <guid>http://localhost:1313/ludo/posts/local-llms-as-bulk-tools/</guid>
+      <description>&lt;p&gt;En una execució recent vaig tenir LLMs locals treballant més de 28 hores, mastegant quatre-cents trenta-set fitxers markdown. El model era &lt;code&gt;qwen3.5:122b&lt;/code&gt;, servit via Ollama en dos Mac Studio sobre una xarxa local privada. La tasca, gens glamurosa: llegir un fitxer, retornar un JSON amb un resum de dues frases, les persones esmentades, les etiquetes de temes, les idees clau que el fitxer argumenta. Repetir. Agregar entre fitxers. Escriure els bastiments per entrada.&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
