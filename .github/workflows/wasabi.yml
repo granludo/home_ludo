@@ -1,0 +1,43 @@
+name: Build and publish to Wasabi
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: wasabi-home-ludo-production
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - name: Test receiver and build site
+        run: |
+          python3 deploy/test_deploy.py
+          python3 deploy/build-release.py "$RUNNER_TEMP/home-public"
+          python3 deploy/package.py "$RUNNER_TEMP/home-public" "$RUNNER_TEMP/site.tar.gz" "$GITHUB_SHA"
+      - name: Retain checked release artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: static-site-${{ github.sha }}
+          path: ${{ runner.temp }}/site.tar.gz
+          retention-days: 14
+      - name: Publish checked release
+        if: vars.WASABI_ENABLED == 'true'
+        env:
+          DEPLOY_KEY: ${{ secrets.WASABI_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ secrets.WASABI_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          test -n "$DEPLOY_KEY"
+          test -n "$KNOWN_HOSTS"
+          umask 077
+          mkdir -p "$RUNNER_TEMP/wasabi-ssh"
+          printf '%s\n' "$DEPLOY_KEY" > "$RUNNER_TEMP/wasabi-ssh/key"
+          printf '%s\n' "$KNOWN_HOSTS" > "$RUNNER_TEMP/wasabi-ssh/known_hosts"
+          ssh -i "$RUNNER_TEMP/wasabi-ssh/key" -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$RUNNER_TEMP/wasabi-ssh/known_hosts" -o ConnectTimeout=20 webpublish@wasabi.essi.upc.edu "publish $GITHUB_RUN_NUMBER $GITHUB_SHA" < "$RUNNER_TEMP/site.tar.gz"
